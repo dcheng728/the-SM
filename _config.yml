@@ -4,6 +4,6 @@ baseurl: /the-SM   # project site lives at dcheng728.github.io/the-SM
 data_dir: source/data
 layouts_dir: build/layouts
 includes_dir: build/includes
-exclude: [build/layouts, build/includes, build/validate.py, build/pdg, source/data, readme.md, Gemfile, Gemfile.lock]
+exclude: [build/layouts, build/includes, build/validate.py, build/pdg, source/data, readme.md, Gemfile, Gemfile.lock, AGENTS.md]
 defaults:
   - values: { layout: default }
