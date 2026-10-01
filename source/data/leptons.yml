@@ -1,0 +1,4 @@
+- {id: e,   symbol: "e",   Q: "-1",   T3: "-1/2", value: "0.51099895",  unit: MeV, source: pdg2024}
+- {id: mu,  symbol: "\\mu", Q: "-1",  T3: "-1/2", value: "105.6583755", err: "0.0000023",    unit: MeV, source: pdg2024}
+- {id: tau, symbol: "\\tau", Q: "-1", T3: "-1/2", value: "1776.93",     err: "0.09",         unit: MeV, source: pdg2024}
+- {id: nu_beta, symbol: "m_\\beta", Q: "0", T3: "+1/2", value: "< 0.8",      unit: eV,  source: pdg2024, note: "effective mass sqrt(sum |U_ei|^2 m_i^2), upper limit 90% CL; flavor states have no definite mass"}
