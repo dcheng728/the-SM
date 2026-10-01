@@ -1,0 +1,5 @@
+- {id: alpha_inv, symbol: "\\alpha^{-1}(0)", value: "137.035999177", err: "0.000000021", unit: "", source: codata2022}
+- {id: alpha_s,   symbol: "\\alpha_s(M_Z)", value: "0.1180", err: "0.0009", unit: "", source: pdg2024}
+- {id: sin2w,     symbol: "\\sin^2\\theta_W", value: "0.23129", err: "0.00004", unit: "", source: pdg2024, note: "MS-bar at M_Z"}
+- {id: G_F,       symbol: "G_F", value: "1.1663788", err: "0.0000006", unit: "10^{-5}\\,GeV^{-2}", source: pdg2024}
+- {id: v,         symbol: "v", value: "246.22", unit: GeV, source: pdg2024, note: "derived from G_F"}
