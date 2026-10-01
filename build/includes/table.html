@@ -1,5 +1,5 @@
 {% assign cols = include.cols | default: "" %}
 <table>
 <tr><th></th>{% if cols contains "Q" %}<th>\(Q\)</th><th>\(T_3\) (L)</th>{% endif %}{% if cols contains "spin" %}<th>spin</th>{% endif %}<th>value</th></tr>
-{% for e in include.data %}<tr><td>\({{ e.symbol }}\)</td>{% if cols contains "Q" %}<td>\({{ e.Q }}\)</td><td>\({{ e.T3 }}\)</td>{% endif %}{% if cols contains "spin" %}<td>{{ e.spin }}</td>{% endif %}<td>{{ e.value }}{% if e.err %} ± {{ e.err }}{% endif %}{% if e.unit != "" %} \({{ e.unit }}\){% endif %}</td></tr>
+{% for e in include.data %}<tr><td>\({{ e.symbol }}\)</td>{% if cols contains "Q" %}<td>\({{ e.Q }}\)</td><td>\({{ e.T3 }}\)</td>{% endif %}{% if cols contains "spin" %}<td>{{ e.spin }}</td>{% endif %}<td>{{ e.value }}{% if e.err %} ± {{ e.err }}{% endif %}{% if e.unit != "" %} \(\mathrm{ {{ e.unit }} }\){% endif %}</td></tr>
 {% endfor %}</table>
