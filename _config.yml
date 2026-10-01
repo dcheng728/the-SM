@@ -3,6 +3,6 @@ title: The Standard Model
 data_dir: source/data
 layouts_dir: build/layouts
 includes_dir: build/includes
-exclude: [build/layouts, build/includes, build/validate.py, source/data, readme.md]
+exclude: [build/layouts, build/includes, build/validate.py, build/pdg, source/data, readme.md, Gemfile, Gemfile.lock]
 defaults:
   - values: { layout: default }
