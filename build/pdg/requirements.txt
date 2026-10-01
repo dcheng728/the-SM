@@ -1,0 +1,4 @@
+pdg==0.2.2
+PyYAML==6.0.3
+SQLAlchemy==2.0.54
+typing_extensions==4.16.0
