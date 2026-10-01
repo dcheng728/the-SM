@@ -11,7 +11,7 @@ To provide compact and clean notes on the standard model, both theory, and exper
 
 ```sh
 bundle install                                   # Jekyll as GitHub Pages runs it (pinned in Gemfile.lock)
-bundle exec jekyll serve                         # site at http://127.0.0.1:4000
+bundle exec jekyll serve                         # site at http://127.0.0.1:4000/the-SM/
 python3 build/validate.py                        # needs PyYAML; also run by CI
 
 # compare masses against the local PDG database (separate Python env, pinned)
