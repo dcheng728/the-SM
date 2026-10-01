@@ -58,7 +58,9 @@ $$\mathcal L_\Theta$$ is a total divergence ($$F\tilde F=\partial_\mu k^\mu$$): 
 
 ## Electroweak symmetry breaking
 
-$$SU(2)_L\times U(1)_Y\to U(1)_{EM}$$. Vacuum and unitary gauge:
+$$SU(2)_L\times U(1)_Y\to U(1)_{EM}$$
+
+### Vacuum and unitary gauge
 
 $$\begin{aligned}
 \langle\phi\rangle&=\frac1{\sqrt2}\begin{pmatrix}0\\v\end{pmatrix},\quad v=\frac{\mu}{\sqrt\lambda}\\[4pt]

@@ -1,3 +1,3 @@
-- {id: hbarc,  symbol: "\\hbar c",       value: "197.3269804",  unit: "MeV\\,fm",          source: codata2022}
-- {id: hbarc2, symbol: "(\\hbar c)^2",   value: "0.3893793721", unit: "GeV^2\\,mb",        source: codata2022}
-- {id: hbar,   symbol: "\\hbar",         value: "6.582119569",  unit: "\\times10^{-25}\\,GeV\\,s", source: codata2022}
+- {id: hbarc,  symbol: "\\hbar c",       value: "197.3269804",  unit: "MeV\\ fm",          source: codata2022}
+- {id: hbarc2, symbol: "(\\hbar c)^2",   value: "0.3893793721", unit: "GeV^2\\ mb",        source: codata2022}
+- {id: hbar,   symbol: "\\hbar",         value: "6.582119569",  unit: "\\times10^{-25}\\ GeV\\ s", source: codata2022}

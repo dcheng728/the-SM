@@ -35,25 +35,29 @@ $$m_T^2=2p_T^\ell E_T^{\rm miss}\left(1-\cos\Delta\phi\right)$$
 
 ## Partons
 
-$$\hat s=x_1x_2\,s,\qquad \hat y=\tfrac12\ln\frac{x_1}{x_2}$$
+$$\hat s=x_1x_2s,\qquad \hat y=\tfrac12\ln\frac{x_1}{x_2}$$
 
-$$x_{1,2}=\frac{m}{\sqrt s}\,e^{\pm\hat y}\quad(2\to1,\ \hat s=m^2)$$
+$$x_{1,2}=\frac{m}{\sqrt s}e^{\pm\hat y}\quad(2\to1,\ \hat s=m^2)$$
 
 ## Decays
 
 $$p^*=\frac{\sqrt{\left[M^2-(m_1+m_2)^2\right]\left[M^2-(m_1-m_2)^2\right]}}{2M}$$
 
-$$\tau=\frac{\hbar}{\Gamma},\qquad L=\beta\gamma\,c\tau=\frac{p}{m}\,c\tau$$
+$$\tau=\frac{\hbar}{\Gamma},\qquad L=\beta\gammac\tau=\frac{p}{m}c\tau$$
 
 $$\sigma\propto\frac{1}{(\hat s-M^2)^2+M^2\Gamma^2}$$
 
 ## Rates
 
-$$N=\sigma\,\mathcal B\,(A\epsilon)\,\mathcal L_{\rm int},\qquad \mathcal L_{\rm int}=\int\mathcal L\,dt$$
+$$N=\sigma\mathcal B(A\epsilon)\mathcal L_{\rm int},\qquad \mathcal L_{\rm int}=\int\mathcal Ldt$$
 
-$$\langle\mu\rangle=\frac{\mathcal L_{\rm inst}\,\sigma_{\rm inel}}{f_{\rm rev}\,n_b}$$
+$$\langle\mu\rangle=\frac{\mathcal L_{\rm inst}\sigma_{\rm inel}}{f_{\rm rev}n_b}$$
 
-$$1\,\mathrm{pb}=10^3\,\mathrm{fb},\quad 1\,\mathrm{fb}=10^{-39}\,\mathrm{cm}^2,\quad 1\,\mathrm{fb}^{-1}=10^{39}\,\mathrm{cm}^{-2}$$
+$$\begin{aligned}
+1\ \mathrm{pb}&=10^3\ \mathrm{fb}\\
+1\ \mathrm{fb}&=10^{-39}\ \mathrm{cm}^2\\
+1\ \mathrm{fb}^{-1}&=10^{39}\ \mathrm{cm}^{-2}
+\end{aligned}$$
 
 ## Natural units
 
