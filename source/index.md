@@ -42,13 +42,15 @@ B_{\mu\nu}&=\partial_\mu B_\nu-\partial_\nu B_\mu
 
 $$\begin{aligned}
 \mathcal L_{\rm gauge}&=-\tfrac14 G^a_{\mu\nu}G^{a\mu\nu}-\tfrac14 W^i_{\mu\nu}W^{i\mu\nu}-\tfrac14 B_{\mu\nu}B^{\mu\nu}\\[4pt]
-\mathcal L_{\rm spinor}&=-i\left(\bar L\gamma^\mu D_\mu L+\bar e_R\gamma^\mu D_\mu e_R+\bar Q\gamma^\mu D_\mu Q+\bar u_R\gamma^\mu D_\mu u_R+\bar d_R\gamma^\mu D_\mu d_R\right)\\[4pt]
+\mathcal L_{\rm spinor}&=-i\left(\bar L\gamma^\mu D_\mu L+\bar e_R\gamma^\mu D_\mu e_R+\bar Q\gamma^\mu D_\mu Q\right.\\
+&\qquad\left.+\bar u_R\gamma^\mu D_\mu u_R+\bar d_R\gamma^\mu D_\mu d_R\right)\\[4pt]
 \mathcal L_{\rm Higgs}&=-D_\mu\phi^\dagger D^\mu\phi-\lambda\left(\phi^\dagger\phi-\tfrac{\mu^2}{2\lambda}\right)^2\\[4pt]
-\mathcal L_{\rm Yukawa}&=-\left(f_{mn}\bar L_m e_{Rn}\phi+h_{mn}\bar Q_m d_{Rn}\phi+k_{mn}\bar Q_m u_{Rn}\tilde\phi\right)+\text{h.c.}\\[4pt]
-\mathcal L_\Theta&=-\sum_{k=1}^3\frac{g_k^2\Theta_k}{32\pi^2}F^{(k)}_{\mu\nu}\tilde F^{(k)\mu\nu}
+\mathcal L_{\rm Yukawa}&=-\left(f_{mn}\bar L_m e_{Rn}\phi+h_{mn}\bar Q_m d_{Rn}\phi\right.\\
+&\qquad\left.+k_{mn}\bar Q_m u_{Rn}\tilde\phi\right)+\text{h.c.}\\[4pt]
+\mathcal L_\Theta&=-\sum_{k=1}^3\frac{g_k^2\Theta_k}{32\pi^2}F^{(k)}_{\mu\nu}\tilde F^{(k)\mu\nu},\quad \tilde F_{\mu\nu}=\tfrac12\epsilon_{\mu\nu\alpha\beta}F^{\alpha\beta}
 \end{aligned}$$
 
-$$\tilde\phi=\epsilon\phi^*=\begin{pmatrix}\phi^{0*}\\-\phi^{-}\end{pmatrix},\qquad \tilde F_{\mu\nu}=\tfrac12\epsilon_{\mu\nu\alpha\beta}F^{\alpha\beta}$$
+$$\tilde\phi=\epsilon\phi^*=\begin{pmatrix}\phi^{0*}\\-\phi^{-}\end{pmatrix}$$
 
 $$\mathcal L_\Theta$$ is a total divergence ($$F\tilde F=\partial_\mu k^\mu$$): no classical effect, parity-odd.
 
@@ -56,21 +58,29 @@ $$\mathcal L_\Theta$$ is a total divergence ($$F\tilde F=\partial_\mu k^\mu$$): 
 
 $$SU(2)_L\times U(1)_Y\to U(1)_{EM}$$. Vacuum and unitary gauge:
 
-$$\langle\phi\rangle=\frac1{\sqrt2}\begin{pmatrix}0\\v\end{pmatrix},\quad v=\frac{\mu}{\sqrt\lambda},\qquad \phi_{\rm unitary}=\frac1{\sqrt2}\begin{pmatrix}0\\v+H(x)\end{pmatrix}$$
+$$\begin{aligned}
+\langle\phi\rangle&=\frac1{\sqrt2}\begin{pmatrix}0\\v\end{pmatrix},\quad v=\frac{\mu}{\sqrt\lambda}\\[4pt]
+\phi_{\rm unitary}&=\frac1{\sqrt2}\begin{pmatrix}0\\v+H(x)\end{pmatrix}
+\end{aligned}$$
 
-**Masses**
+### Masses
 
-$$m_H^2=2\lambda v^2=2\mu^2,\qquad m_W=\tfrac12 g_2 v,\qquad M_Z=\tfrac12 v\sqrt{g_1^2+g_2^2},\qquad m_\gamma=0$$
+$$\begin{aligned}
+m_H^2&=2\lambda v^2=2\mu^2,\qquad m_\gamma=0\\
+m_W&=\tfrac12 g_2 v,\qquad M_Z=\tfrac12 v\sqrt{g_1^2+g_2^2}
+\end{aligned}$$
 
 $$W^\pm_\mu=\tfrac1{\sqrt2}\left(W^1_\mu\mp iW^2_\mu\right)$$
 
-**Mixing**
+### Mixing
 
-$$\cos\theta_W=\frac{g_2}{\sqrt{g_1^2+g_2^2}},\qquad \sin\theta_W=\frac{g_1}{\sqrt{g_1^2+g_2^2}},\qquad m_W=M_Z\cos\theta_W$$
+$$\cos\theta_W=\frac{g_2}{\sqrt{g_1^2+g_2^2}},\qquad \sin\theta_W=\frac{g_1}{\sqrt{g_1^2+g_2^2}}$$
+
+$$m_W=M_Z\cos\theta_W$$
 
 $$\begin{pmatrix}Z_\mu\\A_\mu\end{pmatrix}=\begin{pmatrix}\cos\theta_W&-\sin\theta_W\\\sin\theta_W&\cos\theta_W\end{pmatrix}\begin{pmatrix}W^3_\mu\\B_\mu\end{pmatrix}$$
 
-**Electric charge**
+### Electric charge
 
 $$e=g_1\cos\theta_W=\frac{g_1g_2}{\sqrt{g_1^2+g_2^2}}$$
 
