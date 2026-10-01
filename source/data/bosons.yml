@@ -1,5 +1,5 @@
-- {id: photon, symbol: "\\gamma", spin: "1", value: "0",       unit: "", source: pdg2024}
-- {id: gluon,  symbol: "g",       spin: "1", value: "0",       unit: "", source: pdg2024}
-- {id: W,      symbol: "W^\\pm",  spin: "1", value: "80.3692", err: "0.0133", unit: GeV, source: pdg2024}
-- {id: Z,      symbol: "Z",       spin: "1", value: "91.1880", err: "0.0020", unit: GeV, source: pdg2024}
-- {id: H,      symbol: "H",       spin: "0", value: "125.20",  err: "0.11",   unit: GeV, source: pdg2024}
+- {id: photon, symbol: "\\gamma", spin: "1", value: "0",       unit: "", source: pdg2025}
+- {id: gluon,  symbol: "g",       spin: "1", value: "0",       unit: "", source: pdg2025}
+- {id: W,      symbol: "W^\\pm",  spin: "1", value: "80.3692", err: "0.0133", unit: GeV, source: pdg2025}
+- {id: Z,      symbol: "Z",       spin: "1", value: "91.1880", err: "0.0020", unit: GeV, source: pdg2025}
+- {id: H,      symbol: "H",       spin: "0", value: "125.20",  err: "0.11",   unit: GeV, source: pdg2025}
