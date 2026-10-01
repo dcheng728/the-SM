@@ -12,6 +12,7 @@
   </head>
   <body>
     <div class="page">
+      <nav class="pages">{% assign ps = site.pages | where_exp: "p", "p.nav_order" | sort: "nav_order" %}{% for p in ps %}<a href="{{ p.url | relative_url }}"{% if p.url == page.url %} class="on"{% endif %}>{{ p.nav }}</a>{% endfor %}</nav>
       <main>
         {{ content }}
       </main>
