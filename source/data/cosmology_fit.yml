@@ -1,0 +1,6 @@
+- {id: obh2, symbol: "\\Omega_b h^2",                       name: "baryon density",             value: "0.02237", err: "0.00015", unit: "", source: pdg2025cosmo}
+- {id: och2, symbol: "\\Omega_c h^2",                       name: "cold dark matter density",   value: "0.1200",  err: "0.0012",  unit: "", source: pdg2025cosmo}
+- {id: thmc, symbol: "100\\theta_{\\rm MC}",                name: "sound-horizon angle",        value: "1.0409",  err: "0.0003",  unit: "", source: pdg2025cosmo}
+- {id: ns,   symbol: "n_s",                                 name: "scalar spectral index",      value: "0.965",   err: "0.004",   unit: "", source: pdg2025cosmo}
+- {id: tau,  symbol: "\\tau",                               name: "reionization optical depth", value: "0.054",   err: "0.007",   unit: "", source: pdg2025cosmo}
+- {id: lnAs, symbol: "\\ln(10^{10}\\Delta^2_{\\mathcal R})", name: "primordial amplitude",       value: "3.044",   err: "0.014",   unit: "", source: pdg2025cosmo}

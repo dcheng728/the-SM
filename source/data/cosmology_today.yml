@@ -1,0 +1,4 @@
+- {id: h,      symbol: "h",             value: "0.674",  err: "0.005",  unit: "",  source: pdg2025cosmo, note: "H_0 = 100 h km/s/Mpc"}
+- {id: om,     symbol: "\\Omega_m",     value: "0.315",  err: "0.007",  unit: "",  source: pdg2025cosmo}
+- {id: ol,     symbol: "\\Omega_\\Lambda", value: "0.685", err: "0.007", unit: "", source: pdg2025cosmo, note: "unrounded 0.6847 +- 0.0073, assuming flat"}
+- {id: Tgamma, symbol: "T_\\gamma",     value: "2.7255", err: "0.0006", unit: "K", source: pdg2025cosmo, note: "COBE/FIRAS"}
