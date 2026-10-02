@@ -7,3 +7,6 @@ pdg2024:
 codata2022:
   cite: "CODATA 2022 recommended values (NIST)"
   url: https://physics.nist.gov/cuu/Constants/
+pdg2025cosmo:
+  cite: "PDG, Review 25 'Cosmological Parameters' (revised Oct 2025), Table 25.1: Planck TT,TE,EE+lowE+lensing (Planck 2018 results VI, A&A 641 (2020) A6, arXiv:1807.06209)"
+  url: https://pdg.lbl.gov/2025/reviews/rpp2025-rev-cosmological-parameters.pdf

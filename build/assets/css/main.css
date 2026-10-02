@@ -60,3 +60,6 @@ details { margin: 0.2rem 0; }
 .pages a { color: inherit; }
 .pages a.on { font-weight: 650; border-bottom: 2px solid currentColor; }
 main p { break-inside: avoid; }
+main figure { margin: 0.4rem 0; break-inside: avoid; }
+main img { display: block; width: 100%; height: auto; }
+figcaption { font-size: 0.85em; }

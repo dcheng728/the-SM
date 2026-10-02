@@ -21,9 +21,9 @@ $$I(\theta)=-\mathbb E\!\left[\frac{\partial^2\ell}{\partial\theta^2}\right]=\ma
 
 $$\mathrm{Var}(\hat\theta)\ge\frac1{I(\theta)}\quad\text{(Cram\'er–Rao)}$$
 
-$$\hat\theta\ \xrightarrow{\,n\to\infty\,}\ \mathcal N\!\left(\theta,\ I^{-1}\right)$$
+$$\hat\theta\ \xrightarrow{n\to\infty}\ \mathcal N\!\left(\theta,\ I^{-1}\right)$$
 
-$$\hat V^{-1}_{jk}=-\left.\frac{\partial^2\ell}{\partial\theta_j\,\partial\theta_k}\right|_{\hat\theta}$$
+$$\hat V^{-1}_{jk}=-\left.\frac{\partial^2\ell}{\partial\theta_j\partial\theta_k}\right|_{\hat\theta}$$
 
 ## Intervals
 
@@ -49,11 +49,9 @@ $$t_\theta=-2\ln\frac{L(\theta)}{L(\hat\theta)}\ \to\ \chi^2_1\quad\text{(Wilks)
 
 $$\mu=\frac{\sigma}{\sigma_{\rm SM}},\qquad \langle n\rangle=\mu s+b$$
 
-$$s,\,b$$: expected SM signal and background counts.
+$$s,b$$: expected SM signal and background counts.
 
-## Profile likelihood
-
-Nuisance parameters $$\nu$$ are profiled:
+## Profile likelihood (nuisance parameters $$\nu$$)
 
 $$\lambda(\mu)=\frac{L\!\left(\mu,\hat{\hat\nu}(\mu)\right)}{L(\hat\mu,\hat\nu)}$$
 
@@ -61,7 +59,7 @@ $$\lambda(\mu)=\frac{L\!\left(\mu,\hat{\hat\nu}(\mu)\right)}{L(\hat\mu,\hat\nu)}
 
 $$q_0=\begin{cases}-2\ln\lambda(0)&\hat\mu\ge0\\0&\hat\mu<0\end{cases}\qquad Z=\sqrt{q_0}$$
 
-$$p=\tfrac12\,\mathrm{erfc}\!\left(Z/\sqrt2\right)$$
+$$p=\tfrac12\ \mathrm{erfc}\!\left(Z/\sqrt2\right)$$
 
 | $$Z$$ | one-sided $$p$$ |
 |---|---|
@@ -71,7 +69,7 @@ $$p=\tfrac12\,\mathrm{erfc}\!\left(Z/\sqrt2\right)$$
 | 4 | $$3.1671\times10^{-5}$$ |
 | 5 (discovery) | $$2.8665\times10^{-7}$$ |
 
-Expected significance (Asimov):
+### Expected significance (Asimov)
 
 $$Z_A=\sqrt{2\left[(s+b)\ln\!\left(1+\frac sb\right)-s\right]}$$
 
@@ -83,7 +81,7 @@ $$\mathrm{CL}_s=\frac{p_{s+b}}{1-p_b},\qquad \mathrm{CL}_s<0.05\Rightarrow\text{
 
 ## Look-elsewhere
 
-$$p_{\rm global}\approx N_{\rm trials}\,p_{\rm local}$$
+$$p_{\rm global}\approx N_{\rm trials}p_{\rm local}$$
 
 <details markdown="1">
 <summary>References</summary>
