@@ -46,13 +46,11 @@ $$\begin{aligned}
 &\qquad\left.+\bar u_R\gamma^\mu D_\mu u_R+\bar d_R\gamma^\mu D_\mu d_R\right)\\[4pt]
 \mathcal L_{\rm Higgs}&=-D_\mu\phi^\dagger D^\mu\phi-\lambda\left(\phi^\dagger\phi-\tfrac{\mu^2}{2\lambda}\right)^2\\[4pt]
 \mathcal L_{\rm Yukawa}&=-\left(f_{mn}\bar L_m e_{Rn}\phi+h_{mn}\bar Q_m d_{Rn}\phi\right.\\
-&\qquad\left.+k_{mn}\bar Q_m u_{Rn}\tilde\phi\right)+\text{h.c.}\\[4pt]
+&\qquad\left.+k_{mn}\bar Q_m u_{Rn}\tilde\phi\right)+\text{h.c.},\quad\tilde\phi=\begin{pmatrix}\phi^{0*}\\-\phi^{+*}\end{pmatrix}\\[4pt]
 \mathcal L_\Theta&=-\sum_{k=1}^3\frac{g_k^2\Theta_k}{32\pi^2}F^{(k)}_{\mu\nu}\tilde F^{(k)\mu\nu},\quad \tilde F_{\mu\nu}=\tfrac12\epsilon_{\mu\nu\alpha\beta}F^{\alpha\beta}
 \end{aligned}$$
 
-$$\tilde\phi=\epsilon\phi^*=\begin{pmatrix}\phi^{0*}\\-\phi^{-}\end{pmatrix}$$
-
-$$\mathcal L_\Theta$$ is a total divergence ($$F\tilde F=\partial_\mu k^\mu$$): no classical effect, parity-odd.
+$$G\tilde G=\partial_\mu k^\mu,\ k^\mu=2\epsilon^{\mu\alpha\beta\gamma}(G^a_\alpha\partial_\beta G^a_\gamma+\tfrac{g_3}{3}f^{abc}G^a_\alpha G^b_\beta G^c_\gamma)$$
 
 ## Electroweak symmetry breaking
 
