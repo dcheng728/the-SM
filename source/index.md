@@ -1,8 +1,6 @@
 ---
 title: Home
 permalink: /
-nav: Basics
-nav_order: 1
 ---
 
 # The Standard Model

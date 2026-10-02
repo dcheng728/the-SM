@@ -1,0 +1,25 @@
+/* SM overrides on top of the main site's stylesheet (https://dcheng728.github.io/assets/css/main.css).
+   Only the dense multi-column layout lives here; fonts, links, topbar and footer art come from main. */
+body { font-size: 12px; line-height: 1.45; }
+.page { box-sizing: border-box; max-width: none; margin: 0; padding: 0 0.8rem; }
+.topbar { margin-bottom: 0.5rem; font-size: 16px; }
+.topbar-inner { padding: 0.4rem 0; }
+.nav-links { flex-wrap: wrap; gap: 0.2rem 1.25rem; }
+
+main { column-width: 330px; column-gap: 1.1rem; column-rule: 1px solid #e5e5e5; }
+main h1 { column-span: all; font-size: 1.3rem; margin: 0 0 0.3rem; }
+main h2 { font-size: 1rem; margin: 0.8rem 0 0.2rem; padding-top: 0.5rem; border-top: 1px solid #e5e5e5; break-after: avoid; }
+main h3 { font-size: 0.85rem; margin: 0.4rem 0 0.1rem; break-after: avoid; }
+main p { margin: 0.2rem 0; break-inside: avoid; }
+
+table { border-collapse: collapse; font-size: 0.92em; margin: 0.15rem 0 0.35rem; break-inside: avoid; width: 100%; }
+th, td { padding: 0 0.35rem; border-bottom: 1px solid #e5e5e5; text-align: left; }
+th { border-bottom: 2px solid currentColor; }
+td:not(:first-child), th:not(:first-child) { font-variant-numeric: tabular-nums; }
+
+.katex { font-size: 1em; }
+.katex-display { margin: 0.25em 0; overflow-x: auto; overflow-y: hidden; }
+details { margin: 0.2rem 0; }
+main figure { margin: 0.4rem 0; break-inside: avoid; }
+main img { width: 100%; margin: 0; max-width: none; }
+figcaption { font-size: 0.85em; }

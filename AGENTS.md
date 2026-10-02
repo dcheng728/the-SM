@@ -7,7 +7,13 @@ Conventions for working on this repo. The site is a compact, equation- and numbe
 - `source/` is physics only: `data/*.yml` (every number), pages (`*.md`, equations), `data/sources.yml` (citations).
 - `build/` is site machinery only: `layouts/`, `includes/`, `assets/`, `validate.py`, `pdg/`.
 - Root holds config only (`_config.yml`, `Gemfile`, `readme.md`, this file). Keep `source/` and `build/` separate.
-- A page joins the nav bar by setting `nav:` and `nav_order:` in its front matter and a `permalink`.
+- A page joins the nav bar by setting `nav:` and `nav_order:` in its front matter and a `permalink`. The home page is the brand link (the site title), so it needs no nav fields.
+
+## Visual consistency with the main site
+
+- This site must look like the owner's main site (`dcheng728.github.io`, repo `dcheng728/dcheng728.github.io`). It loads the main site's stylesheet (`https://dcheng728.github.io/assets/css/main.css`) and uses its `topbar` / `nav-links` pattern and its footer art (identical SVG). Do not copy that CSS into this repo.
+- `build/assets/css/dense.css` holds only the overrides this site needs (dense multi-column layout, tables, KaTeX, figures). To change fonts, colours, links, nav or footer, change the main site, not this repo.
+- Match the main site's conventions: system font, `#e5e5e5` rules, headings with a thin top rule (no shaded bars), `{{ page.title }} · {{ site.title }}` page titles, KaTeX 0.16.11. Only the type size is deliberately denser here.
 
 ## Writing math
 
