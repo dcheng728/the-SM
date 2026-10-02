@@ -5,14 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{{ page.title }} · {{ site.title }}</title>
     <link rel="icon" href="data:,">
-    <link rel="stylesheet" href="{{ '/build/assets/css/main.css' | relative_url }}" />
+    <link rel="stylesheet" href="https://dcheng728.github.io/assets/css/main.css" />
+    <link rel="stylesheet" href="{{ '/build/assets/css/dense.css' | relative_url }}" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
   </head>
   <body>
     <div class="page">
-      <nav class="pages">{% assign ps = site.pages | where_exp: "p", "p.nav_order" | sort: "nav_order" %}{% for p in ps %}<a href="{{ p.url | relative_url }}"{% if p.url == page.url %} class="on"{% endif %}>{{ p.nav }}</a>{% endfor %}</nav>
+      <header class="topbar">
+        <div class="topbar-inner">
+          <nav class="nav-links">
+            <a class="brand{% if page.url == '/' %} is-active{% endif %}" href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>{{ site.title }}</a>
+            {% assign ps = site.pages | where_exp: "p", "p.nav_order" | sort: "nav_order" %}{% for p in ps %}<a class="{% if p.url == page.url %}is-active{% endif %}" href="{{ p.url | relative_url }}"{% if p.url == page.url %} aria-current="page"{% endif %}>{{ p.nav }}</a>{% endfor %}
+          </nav>
+        </div>
+      </header>
       <main>
         {{ content }}
       </main>
