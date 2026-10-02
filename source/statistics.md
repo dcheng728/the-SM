@@ -94,3 +94,5 @@ $$p_{\rm global}\approx N_{\rm trials}p_{\rm local}$$
 - CMS, Phys. Lett. B 716 (2012) 30, arXiv:1207.7235 (Higgs discovery)
 
 </details>
+
+“It does not make any difference how beautiful your guess is. It does not make any difference how smart you are, who made the guess, or what his name is – if it disagrees with experiment it is wrong.” — Richard P. Feynman, *The Character of Physical Law* (1965), ch. 7

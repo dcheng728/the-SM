@@ -43,7 +43,7 @@ $$x_{1,2}=\frac{m}{\sqrt s}e^{\pm\hat y}\quad(2\to1,\ \hat s=m^2)$$
 
 $$p^*=\frac{\sqrt{\left[M^2-(m_1+m_2)^2\right]\left[M^2-(m_1-m_2)^2\right]}}{2M}$$
 
-$$\tau=\frac{\hbar}{\Gamma},\qquad L=\beta\gammac\tau=\frac{p}{m}c\tau$$
+$$\tau=\frac{\hbar}{\Gamma},\qquad L=\beta\gamma c\tau=\frac{p}{m}c\tau$$
 
 $$\sigma\propto\frac{1}{(\hat s-M^2)^2+M^2\Gamma^2}$$
 
