@@ -11,23 +11,19 @@ nav_order: 7
 
 $$G=c=1,\qquad \text{metric }(-+++),\qquad w=\frac{P}{\rho}$$
 
+$$\hom\equiv\text{``homogeneous"},\qquad\iso\equiv\text{``isotropic"}$$
+
 ## FLRW Geometry
 
 $$ds^2=-dt^2+a^2(t)d\Sigma^2,\quad
 d\Sigma^2 = \gamma_{ij}dx^idx^j$$
 
-$$
-\begin{matrix}
-    \text{homogeneous}\\
-    +\text{isotropic}
-\end{matrix}
-\Rightarrow
-{}^{(3)}R_{ikjl}=K(\gamma_{ij}\gamma_{kl}-\gamma_{il}\gamma_{kj}),\,
-{}^{(3)}R=6K$$
+$$\hom\ \&\ \iso\Rightarrow{}^{(3)}R_{ikjl}=K(\gamma_{ij}\gamma_{kl}-\gamma_{il}\gamma_{kj})$$
 
 $$
-K = \text{+1 (closed)},\quad
-\text{0 (flat)},\quad
+{}^{(3)}R=6K,\quad
+K = \text{+1 (closed)},\;
+\text{0 (flat)},\;
 \text{-1 (open)}.
 $$
 
@@ -55,7 +51,9 @@ $$f(\chi)=\begin{cases}\sin\chi&K=+1\\\chi&K=0\\\sinh\chi&K=-1\end{cases}$$
 
 $$T_{\mu\nu}=(\rho+P)u_\mu u_\nu+Pg_{\mu\nu}$$
 
-$$T_{00}=\rho,\qquad g^{ij}T_{ij}=3P$$
+$$\hom\ \&\ \iso\Rightarrow u^\mu=(1,0,0,0)$$
+
+$$T_{00}=\rho,\quad T_{0i}=0,\quad T_{ij}=Pg_{ij}$$
 
 ## Dynamics
 
