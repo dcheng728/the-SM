@@ -124,6 +124,11 @@
             { left: "\\[", right: "\\]", display: true },
             { left: "\\(", right: "\\)", display: false },
           ],
+          trust: function (c) { return c.command === "\\htmlClass"; },
+          macros: {
+            "\\hom": "\\htmlClass{ico ico-hom}{\\rule{1.25em}{1.25em}}",
+            "\\iso": "\\htmlClass{ico ico-iso}{\\rule{1.1em}{1.1em}}"
+          },
           throwOnError: false
         });
       });
