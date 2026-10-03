@@ -18,7 +18,7 @@ Conventions for working on this repo. The site is a compact, equation- and numbe
 ## Writing math
 
 - Use `$$...$$` for all math (kramdown turns it into `\(...\)` / `\[...\]` for KaTeX). Display math goes on its own line with blank lines around it.
-- **Do not use `\,` or `\;`** (thin and medium math spaces). Drop them. In units write `\mathrm{km}\ \mathrm{s}^{-1}` style or `\ `, never `\,`.
+- **Avoid `\,` and `\;`** (thin and medium math spaces): drop them by default. In units write `\mathrm{km}\ \mathrm{s}^{-1}` style or `\ `, never `\,`. Use `\;` only occasionally, where it is the right spacing (e.g. between list items on one line), not as a habit.
 - KaTeX does not support `\slashed`; write `\gamma^\mu D_\mu`.
 - Never fuse a control word with the next letter after deleting a space command (`\gamma c`, not `\gammac`). Browser checks must count KaTeX error spans by their red colour (`color:#cc0000`), not only the `.katex-error` class.
 - The layout is dense multi-column (about 330px per column). Split any equation that would be wider than a column; check with the browser, not by eye.
