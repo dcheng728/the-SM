@@ -17,20 +17,19 @@ $$ds^2=-dt^2+a^2(t)d\Sigma^2,\quad
 d\Sigma^2 = \gamma_{ij}dx^idx^j$$
 
 $$
-{}^{(3)}R=6K,\quad
-K=\begin{cases}
-1\ &\text{closed}\\
-0\ &\text{flat}\\
--1\ &\text{open}
-\end{cases}
+\begin{matrix}
+    \text{homogeneous}\\
+    +\text{isotropic}
+\end{matrix}
+\Rightarrow
+{}^{(3)}R_{ikjl}=K(\gamma_{ij}\gamma_{kl}-\gamma_{il}\gamma_{kj}),\,
+{}^{(3)}R=6K$$
+
 $$
-
-### Proper-distance coordinate $$\chi$$
-
-$$d\Sigma^2=d\chi^2+f^2(\chi)d\Omega^2,\qquad d\Omega^2=d\theta^2+\sin^2\theta d\phi^2$$
-
-$$f(\chi)=\begin{cases}\sin\chi&K=+1\\\chi&K=0\\\sinh\chi&K=-1\end{cases}$$
-
+K = \text{+1 (closed)},\quad
+\text{0 (flat)},\quad
+\text{-1 (open)}.
+$$
 
 ### Einstein equations
 
@@ -41,6 +40,14 @@ G_{00}&=3\left(\frac{\dot a}{a}\right)^2+\frac{3K}{a^2}=8\pi T_{00}\\
 g^{ij}G_{ij}&=-6\frac{\ddot a}{a}-3\left(\frac{\dot a}{a}\right)^2-\frac{3K}{a^2}\\
 &=8\pi g^{ij}T_{ij}
 \end{aligned}$$
+
+
+### Proper-distance coordinate $$\chi$$
+
+$$d\Sigma^2=d\chi^2+f^2(\chi)d\Omega^2,\qquad d\Omega^2=d\theta^2+\sin^2\theta d\phi^2$$
+
+$$f(\chi)=\begin{cases}\sin\chi&K=+1\\\chi&K=0\\\sinh\chi&K=-1\end{cases}$$
+
 
 ## Matter
 
