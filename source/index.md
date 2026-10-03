@@ -84,6 +84,56 @@ $$\begin{pmatrix}Z_\mu\\A_\mu\end{pmatrix}=\begin{pmatrix}\cos\theta_W&-\sin\the
 
 $$e=g_1\cos\theta_W=\frac{g_1g_2}{\sqrt{g_1^2+g_2^2}}$$
 
+### Fermion masses
+
+$$\begin{aligned}
+m^{(e)}_n&=\frac{v}{\sqrt2}f_n\\
+m^{(d)}_n&=\frac{v}{\sqrt2}h_n\\
+m^{(u)}_n&=\frac{v}{\sqrt2}k_n
+\end{aligned}$$
+
+### Higgs couplings
+
+$$g_{Hf\bar f}=\frac{m_f}{v}$$
+
+### Fermi constant
+
+$$\frac{G_F}{\sqrt2}=\frac{g_2^2}{8M_W^2}=\frac1{2v^2}$$
+
+$$v=\left(\sqrt2G_F\right)^{-1/2}$$
+
+## Fermion currents
+
+### Charged current
+
+$$\begin{aligned}
+\mathcal L_{cc}=-\frac{g_2}{\sqrt2}\Big[&W^+_\mu V_{mn}\bar u_{Lm}\gamma^\mu d_{Ln}\\
+&+W^-_\mu V^*_{mn}\bar d_{Ln}\gamma^\mu u_{Lm}\Big]
+\end{aligned}$$
+
+$$\begin{aligned}
+\mathcal L^{\ell}_{cc}=-\frac{g_2}{\sqrt2}\Big[&W^+_\mu\bar\nu_{Lm}\gamma^\mu e_{Lm}\\
+&+W^-_\mu\bar e_{Lm}\gamma^\mu\nu_{Lm}\Big]
+\end{aligned}$$
+
+### Neutral current
+
+$$\begin{aligned}
+\mathcal L_{nc}=&-eA_\mu J^\mu_{\rm em}\\
+&-\frac{g_2}{\cos\theta_W}Z_\mu\left(J^\mu_3-\sin^2\theta_WJ^\mu_{\rm em}\right)
+\end{aligned}$$
+
+$$\begin{aligned}
+J^\mu_{\rm em}&=\sum_fQ_f\bar f\gamma^\mu f\\
+J^\mu_3&=\sum_fT_{3f}\bar f_L\gamma^\mu f_L
+\end{aligned}$$
+
+### CKM matrix
+
+$$V_{mn}=\left(U^{u_L}U^{d_L\dagger}\right)_{mn},\qquad V^\dagger V=1$$
+
+$$9-5=4:\quad\theta_{12},\ \theta_{23},\ \theta_{13},\ \delta$$
+
 ## Measured values
 
 ### Quarks (mass)
@@ -101,5 +151,11 @@ $$e=g_1\cos\theta_W=\frac{g_1g_2}{\sqrt{g_1^2+g_2^2}}$$
 ### Constants
 
 {% include table.html data=site.data.constants %}
+
+### CKM magnitudes
+
+{% include table.html data=site.data.ckm %}
+
+CKMfitter global fit with three-generation unitarity (PDG 2025, Review 12).
 
 $$\theta_W$$ runs with the momentum scale; $$\sin^2\theta_W$$ is quoted at $$M_Z$$.

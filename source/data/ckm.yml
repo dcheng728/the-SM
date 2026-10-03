@@ -1,0 +1,9 @@
+- {id: Vud, symbol: "|V_{ud}|", value: "0.97435",  err: "0.00016",                          unit: "", source: pdg2025ckm}
+- {id: Vus, symbol: "|V_{us}|", value: "0.22501",  err: "0.00068",                          unit: "", source: pdg2025ckm}
+- {id: Vub, symbol: "|V_{ub}|", value: "0.003732", errp: "0.000090", errm: "0.000085",     unit: "", source: pdg2025ckm}
+- {id: Vcd, symbol: "|V_{cd}|", value: "0.22487",  err: "0.00068",                          unit: "", source: pdg2025ckm}
+- {id: Vcs, symbol: "|V_{cs}|", value: "0.97349",  err: "0.00016",                          unit: "", source: pdg2025ckm}
+- {id: Vcb, symbol: "|V_{cb}|", value: "0.04183",  errp: "0.00079",  errm: "0.00069",      unit: "", source: pdg2025ckm}
+- {id: Vtd, symbol: "|V_{td}|", value: "0.00858",  errp: "0.00019",  errm: "0.00017",      unit: "", source: pdg2025ckm}
+- {id: Vts, symbol: "|V_{ts}|", value: "0.04111",  errp: "0.00077",  errm: "0.00068",      unit: "", source: pdg2025ckm}
+- {id: Vtb, symbol: "|V_{tb}|", value: "0.999118", errp: "0.000029", errm: "0.000034",     unit: "", source: pdg2025ckm}
