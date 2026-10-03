@@ -13,6 +13,8 @@ $$G=c=1,\qquad \text{metric }(-+++),\qquad w=\frac{P}{\rho}$$
 
 $$\hom\equiv\text{``homogeneous"},\qquad\iso\equiv\text{``isotropic"}$$
 
+$$H\equiv\frac{\dot a}{a},\qquad 1+z=\frac{a_0}{a}$$
+
 ## FLRW Geometry
 
 $$ds^2=-dt^2+a^2(t)d\Sigma^2,\quad
@@ -27,7 +29,13 @@ K = \text{+1 (closed)},\;
 \text{-1 (open)}.
 $$
 
-### Einstein equations
+### Proper-distance coordinate $$\chi$$
+
+$$d\Sigma^2=d\chi^2+f^2(\chi)d\Omega^2,\qquad d\Omega^2=d\theta^2+\sin^2\theta d\phi^2$$
+
+$$f(\chi)=\begin{cases}\sin\chi&K=+1\\\chi&K=0\\\sinh\chi&K=-1\end{cases}$$
+
+## Einstein equations
 
 $$G_{\mu\nu}=8\pi T_{\mu\nu}$$
 
@@ -36,13 +44,6 @@ G_{00}&=3\left(\frac{\dot a}{a}\right)^2+\frac{3K}{a^2}=8\pi T_{00}\\
 g^{ij}G_{ij}&=-6\frac{\ddot a}{a}-3\left(\frac{\dot a}{a}\right)^2-\frac{3K}{a^2}\\
 &=8\pi g^{ij}T_{ij}
 \end{aligned}$$
-
-
-### Proper-distance coordinate $$\chi$$
-
-$$d\Sigma^2=d\chi^2+f^2(\chi)d\Omega^2,\qquad d\Omega^2=d\theta^2+\sin^2\theta d\phi^2$$
-
-$$f(\chi)=\begin{cases}\sin\chi&K=+1\\\chi&K=0\\\sinh\chi&K=-1\end{cases}$$
 
 
 ## Matter
@@ -99,11 +100,11 @@ $$\rho_K=-\frac{3K}{8\pi a^2}$$
 
 $$\rho=\frac{\dot\varphi^2}{2}+V,\qquad P=\frac{\dot\varphi^2}{2}-V$$
 
-$$V\gg\tfrac12\dot\varphi^2\ \Rightarrow\ w\approx-1\quad\text{(inflation)}$$
+$$V\gg\tfrac12\dot\varphi^2\ \Rightarrow\ w\approx-1\quad\text{(accelerated expansion)}$$
 
 ### Energy conditions
 
-| condition | |
+| condition | requires |
 |---|---|
 | weak | $$\rho\ge0$$ |
 | dominant | $$-\rho\le P\le\rho$$ |
@@ -129,7 +130,10 @@ $$a=t,\qquad ds^2=-dt^2+t^2\left(d\chi^2+\sinh^2\chi d\Omega^2\right)$$
 
 $$\frac{8\pi}{3}\rho(t_K)=\frac{1}{a^2(t_K)},\qquad \ddot a<0$$
 
-$$a(\eta)=\frac{a_{\max}}{2}(1-\cos\eta),\qquad t(\eta)=\frac{a_{\max}}{2}(\eta-\sin\eta)$$
+$$\begin{aligned}
+a(\eta)&=\frac{a_{\max}}{2}(1-\cos\eta)\quad(w=0)\\
+t(\eta)&=\frac{a_{\max}}{2}(\eta-\sin\eta)
+\end{aligned}$$
 
 ## Density parameters
 
