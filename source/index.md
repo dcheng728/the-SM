@@ -67,7 +67,7 @@ $$\begin{aligned}
 
 $$\begin{aligned}
 m_H^2&=2\lambda v^2=2\mu^2,\qquad m_\gamma=0\\
-m_W&=\tfrac12 g_2 v,\qquad M_Z=\tfrac12 v\sqrt{g_1^2+g_2^2}
+M_W&=\tfrac12 g_2 v,\qquad M_Z=\tfrac12 v\sqrt{g_1^2+g_2^2}
 \end{aligned}$$
 
 $$W^\pm_\mu=\tfrac1{\sqrt2}\left(W^1_\mu\mp iW^2_\mu\right)$$
@@ -76,7 +76,7 @@ $$W^\pm_\mu=\tfrac1{\sqrt2}\left(W^1_\mu\mp iW^2_\mu\right)$$
 
 $$\cos\theta_W=\frac{g_2}{\sqrt{g_1^2+g_2^2}},\qquad \sin\theta_W=\frac{g_1}{\sqrt{g_1^2+g_2^2}}$$
 
-$$m_W=M_Z\cos\theta_W$$
+$$M_W=M_Z\cos\theta_W$$
 
 $$\begin{pmatrix}Z_\mu\\A_\mu\end{pmatrix}=\begin{pmatrix}\cos\theta_W&-\sin\theta_W\\\sin\theta_W&\cos\theta_W\end{pmatrix}\begin{pmatrix}W^3_\mu\\B_\mu\end{pmatrix}$$
 

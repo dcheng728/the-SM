@@ -28,7 +28,8 @@ Conventions for working on this repo. The site is a compact, equation- and numbe
 ## Content scope
 
 - Only established material: things standard in the field and used in practice (for statistics, the methods used in the Higgs discovery). No speculative or frontier methods unless asked.
-- Include only what the owner has studied and understands. Follow the notation of their course notes: Standard Model chapter 1 notes (gauge couplings `g_3, g_2, g_1`, metric `(-+++)`), Relativity and Cosmology notes (`G=c=1`, `K=\pm1,0`, `\chi`, `f(\chi)`, pressure `P`, `w=P/\rho`). Do not import another source's notation.
+- Include only what the owner has studied and understands; their course notes (Standard Model, Relativity and Cosmology) define the scope.
+- Notation: stay close to the standard literature, PDG reviews first, then standard textbooks. Where the course notes use idiosyncratic symbols, prefer the literature's and tell the owner. Use one symbol per quantity across all pages (e.g. `M_W`, `M_Z`, `m_H`), and say which sign and metric conventions a page uses.
 - If a course note looks wrong (e.g. mislabelled curvature sign), follow the correct physics and tell the owner.
 
 ## Images
