@@ -41,11 +41,43 @@ $$x_{1,2}=\frac{m}{\sqrt s}e^{\pm\hat y}\quad(2\to1,\ \hat s=m^2)$$
 
 ## Decays
 
+### Width and branching ratios
+
+$$\Gamma=\sum_i\Gamma_i,\qquad \mathcal B_i=\frac{\Gamma_i}{\Gamma}$$
+
+$$d\Gamma=\frac{(2\pi)^4}{2M}|\mathcal M|^2d\Phi_n$$
+
+### Two-body decay
+
 $$p^*=\frac{\sqrt{\left[M^2-(m_1+m_2)^2\right]\left[M^2-(m_1-m_2)^2\right]}}{2M}$$
 
-$$\tau=\frac{\hbar}{\Gamma},\qquad L=\beta\gammac\tau=\frac{p}{m}c\tau$$
+$$\Gamma(M\to m_1m_2)=\frac{p^*}{8\pi M^2}\overline{|\mathcal M|^2}$$
+
+Spin-summed over the final state and averaged over the initial state; multiply by 1/2 for identical final-state particles.
+
+### Lifetime
+
+$$\tau=\frac{\hbar}{\Gamma},\qquad L=\beta\gamma c\tau=\frac{p}{m}c\tau$$
+
+$$P(x_0)=e^{-Mx_0\Gamma/|\vec p|}$$
+
+### Resonance shape
 
 $$\sigma\propto\frac{1}{(\hat s-M^2)^2+M^2\Gamma^2}$$
+
+$$\mathrm{BW}(m)=\frac{\Gamma/2\pi}{(m-M)^2+\Gamma^2/4}$$
+
+$$\mathrm{FWHM}_{\rm BW}=\Gamma$$
+
+$$\mathrm{FWHM}_G=2\sqrt{2\ln2}\ \sigma_m\approx2.355\ \sigma_m$$
+
+$$\text{observed shape}=\mathrm{BW}\otimes G(\sigma_m)$$
+
+$$\Gamma\ll\sigma_m\ \Rightarrow\ \text{observed width}\approx\sigma_m$$
+
+### Narrow width
+
+$$\sigma(X\to f)\simeq\sigma_X\mathcal B(X\to f)\quad(\Gamma\ll M)$$
 
 ## Rates
 

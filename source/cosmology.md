@@ -11,18 +11,22 @@ nav_order: 7
 
 $$G=c=1,\qquad \text{metric }(-+++),\qquad w=\frac{P}{\rho}$$
 
+$$\hom\equiv\text{``homogeneous"},\qquad\iso\equiv\text{``isotropic"}$$
+
+$$H\equiv\frac{\dot a}{a},\qquad 1+z=\frac{a_0}{a}$$
+
 ## FLRW Geometry
 
 $$ds^2=-dt^2+a^2(t)d\Sigma^2,\quad
 d\Sigma^2 = \gamma_{ij}dx^idx^j$$
 
+$$\hom\ \&\ \iso\Rightarrow{}^{(3)}R_{ikjl}=K(\gamma_{ij}\gamma_{kl}-\gamma_{il}\gamma_{kj})$$
+
 $$
 {}^{(3)}R=6K,\quad
-K=\begin{cases}
-1\ &\text{closed}\\
-0\ &\text{flat}\\
--1\ &\text{open}
-\end{cases}
+K = \text{+1 (closed)},\;
+\text{0 (flat)},\;
+\text{-1 (open)}.
 $$
 
 ### Proper-distance coordinate $$\chi$$
@@ -31,8 +35,7 @@ $$d\Sigma^2=d\chi^2+f^2(\chi)d\Omega^2,\qquad d\Omega^2=d\theta^2+\sin^2\theta d
 
 $$f(\chi)=\begin{cases}\sin\chi&K=+1\\\chi&K=0\\\sinh\chi&K=-1\end{cases}$$
 
-
-### Einstein equations
+## Einstein equations
 
 $$G_{\mu\nu}=8\pi T_{\mu\nu}$$
 
@@ -42,13 +45,16 @@ g^{ij}G_{ij}&=-6\frac{\ddot a}{a}-3\left(\frac{\dot a}{a}\right)^2-\frac{3K}{a^2
 &=8\pi g^{ij}T_{ij}
 \end{aligned}$$
 
+
 ## Matter
 
 ### Perfect fluid
 
 $$T_{\mu\nu}=(\rho+P)u_\mu u_\nu+Pg_{\mu\nu}$$
 
-$$T_{00}=\rho,\qquad g^{ij}T_{ij}=3P$$
+$$\hom\ \&\ \iso\Rightarrow u^\mu=(1,0,0,0)$$
+
+$$T_{00}=\rho,\quad T_{0i}=0,\quad T_{ij}=Pg_{ij}$$
 
 ## Dynamics
 
@@ -94,11 +100,11 @@ $$\rho_K=-\frac{3K}{8\pi a^2}$$
 
 $$\rho=\frac{\dot\varphi^2}{2}+V,\qquad P=\frac{\dot\varphi^2}{2}-V$$
 
-$$V\gg\tfrac12\dot\varphi^2\ \Rightarrow\ w\approx-1\quad\text{(inflation)}$$
+$$V\gg\tfrac12\dot\varphi^2\ \Rightarrow\ w\approx-1\quad\text{(accelerated expansion)}$$
 
 ### Energy conditions
 
-| condition | |
+| condition | requires |
 |---|---|
 | weak | $$\rho\ge0$$ |
 | dominant | $$-\rho\le P\le\rho$$ |
@@ -124,7 +130,10 @@ $$a=t,\qquad ds^2=-dt^2+t^2\left(d\chi^2+\sinh^2\chi d\Omega^2\right)$$
 
 $$\frac{8\pi}{3}\rho(t_K)=\frac{1}{a^2(t_K)},\qquad \ddot a<0$$
 
-$$a(\eta)=\frac{a_{\max}}{2}(1-\cos\eta),\qquad t(\eta)=\frac{a_{\max}}{2}(\eta-\sin\eta)$$
+$$\begin{aligned}
+a(\eta)&=\frac{a_{\max}}{2}(1-\cos\eta)\quad(w=0)\\
+t(\eta)&=\frac{a_{\max}}{2}(\eta-\sin\eta)
+\end{aligned}$$
 
 ## Density parameters
 
@@ -153,7 +162,45 @@ $$\rho>\rho_c\Leftrightarrow K=+1,\qquad \rho<\rho_c\Leftrightarrow K=-1$$
 
 Planck TT,TE,EE+lowE+lensing, 68% confidence (PDG 2025, Table 25.1).
 
+### $$H_0\ (\mathrm{km}\ \mathrm{s}^{-1}\ \mathrm{Mpc}^{-1})$$
+
+{% include table.html data=site.data.cosmology_h0 cols="name nosymbol" %}
+
+## Timeline
+
+$$tT_{\rm MeV}^2=2.4N(T)^{-1/2}\ \text{s}$$
+
+$$1+z_{\rm eq}=2.4\times10^4\Omega_mh^2$$
+
+$$\Omega_m(1+z)^3=\Omega_\Lambda\quad(\rho_\Lambda=\rho_m)$$
+
+$$\Omega_m(1+z)^3=2\Omega_\Lambda\quad(\rho+3P=0)$$
+
+| $$t$$ | event |
+|---|---|
+| $$\sim10^{-11}$$ s | electroweak scale |
+| $$\sim1$$ s | neutrino decoupling |
+| $$\sim3$$ s | $$e^\pm$$ annihilation |
+| $$\sim3$$ min | nucleosynthesis |
+| $$5\times10^4$$ yr | matter–radiation equality |
+| $$3.7\times10^5$$ yr | last scattering (CMB) |
+| $$\lesssim0.9$$ Gyr | reionization |
+| $$7.7$$ Gyr | acceleration begins |
+| $$10.3$$ Gyr | $$\rho_\Lambda=\rho_m$$ |
+| $$13.797$$ Gyr | today |
+
+<details markdown="1">
+<summary>References</summary>
+
+- PDG Review 22, Big-Bang Cosmology (2025): $$tT_{\rm MeV}^2$$ relation and $$N(T)$$ table (22.44), neutrino decoupling at $$T\sim1$$ MeV, equality (22.61), last scattering at $$z\simeq1100$$ (about 370,000 yr), reionization at $$z>6$$
+- PDG Review 24, Big-Bang Nucleosynthesis (2025): $$T\sim1$$ MeV at $$t\sim1$$ s, nuclei form at $$T\simeq0.1$$ MeV, the first three minutes
+- PDG Review 25, Table 25.1: $$\Omega_m$$, $$\Omega_\Lambda$$, $$h$$, $$t_0$$, $$T_\gamma$$
+- Computed here: $$t$$ for the electroweak scale and $$e^\pm$$ annihilation from the $$tT^2$$ relation; $$z_{\rm eq}$$, $$z\approx0.30$$ and $$z\approx0.63$$ from the table's $$\Omega_m$$, $$\Omega_\Lambda$$, $$h$$; $$t$$ for equality, reionization and the dark-energy epochs by integrating $$H(a)$$ above with $$\Omega_r$$ from $$\Omega_\gamma=2.47\times10^{-5}h^{-2}$$ and PDG (22.57), which reproduces $$t_0=13.79$$ Gyr and $$t(z=1100)=3.7\times10^5$$ yr
+- CMB map: ESA and the Planck Collaboration, <a href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</a>, via <a href="https://commons.wikimedia.org/wiki/File:Cosmic_Microwave_Background_(CMB).jpeg">Wikimedia Commons</a>; modified: resized, background made transparent
+
+</details>
+
 <figure>
 <img src="{{ '/source/images/cmb.webp' | relative_url }}" alt="All-sky map of the cosmic microwave background temperature from Planck: small blue and red blotches on a nearly uniform background">
-<figcaption>CMB temperature map (Planck), \(\Delta T/T\sim10^{-5}\) about \(T_\gamma\). Credit: ESA and the Planck Collaboration, <a href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</a>, via <a href="https://commons.wikimedia.org/wiki/File:Cosmic_Microwave_Background_(CMB).jpeg">Wikimedia Commons</a>. Modified: resized, background made transparent.</figcaption>
+<figcaption>CMB temperature map (Planck)</figcaption>
 </figure>

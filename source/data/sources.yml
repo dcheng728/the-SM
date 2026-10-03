@@ -10,3 +10,15 @@ codata2022:
 pdg2025cosmo:
   cite: "PDG, Review 25 'Cosmological Parameters' (revised Oct 2025), Table 25.1: Planck TT,TE,EE+lowE+lensing (Planck 2018 results VI, A&A 641 (2020) A6, arXiv:1807.06209)"
   url: https://pdg.lbl.gov/2025/reviews/rpp2025-rev-cosmological-parameters.pdf
+pdg2025ckm:
+  cite: "PDG, Review 12 'CKM Quark-Mixing Matrix' (Ceccucci, Ligeti, Sakai; rev. April 2024; 2025 edition), eq. 12.27: CKMfitter global fit with three-generation unitarity"
+  url: https://pdg.lbl.gov/2025/reviews/rpp2025-rev-ckm-matrix.pdf
+planck2018:
+  cite: "Planck Collaboration, Planck 2018 results. VI. Cosmological parameters, A&A 641 (2020) A6, abstract: H0 = 67.4 +- 0.5 (CMB, base LCDM)"
+  url: https://arxiv.org/abs/1807.06209
+shoes2022:
+  cite: "A. G. Riess et al. (SH0ES), ApJ Lett. 934 (2022) L7, abstract: baseline Cepheid-SN Ia result H0 = 73.04 +- 1.04, 5 sigma from Planck under LCDM"
+  url: https://arxiv.org/abs/2112.04510
+cchp2025:
+  cite: "W. L. Freedman et al. (CCHP), ApJ 985 (2025) 203, abstract: TRGB with 24 SN Ia calibrators, H0 = 70.39 +- 1.22 (stat) +- 1.33 (sys) +- 0.70 (sigma_SN); total error is these added in quadrature"
+  url: https://arxiv.org/abs/2408.06153

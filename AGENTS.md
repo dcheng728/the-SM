@@ -18,8 +18,9 @@ Conventions for working on this repo. The site is a compact, equation- and numbe
 ## Writing math
 
 - Use `$$...$$` for all math (kramdown turns it into `\(...\)` / `\[...\]` for KaTeX). Display math goes on its own line with blank lines around it.
-- **Do not use `\,` or `\;`** (thin and medium math spaces). Drop them. In units write `\mathrm{km}\ \mathrm{s}^{-1}` style or `\ `, never `\,`.
+- **Avoid `\,` and `\;`** (thin and medium math spaces): drop them by default. In units write `\mathrm{km}\ \mathrm{s}^{-1}` style or `\ `, never `\,`. Use `\;` only occasionally, where it is the right spacing (e.g. between list items on one line), not as a habit.
 - KaTeX does not support `\slashed`; write `\gamma^\mu D_\mu`.
+- Never fuse a control word with the next letter after deleting a space command (`\gamma c`, not `\gammac`). Browser checks must count KaTeX error spans by their red colour (`color:#cc0000`), not only the `.katex-error` class.
 - The layout is dense multi-column (about 330px per column). Split any equation that would be wider than a column; check with the browser, not by eye.
 - Section labels are real headings (`###`), not bold paragraphs, so they cannot be stranded at a column break. Likewise avoid lead-in paragraphs ending in a colon ("Comoving observers:"): they strand at the bottom of a column; turn them into a heading or fold them into the equation.
 - Units upright (`\mathrm{...}`); keep the page equation-first with minimal prose.
@@ -27,7 +28,8 @@ Conventions for working on this repo. The site is a compact, equation- and numbe
 ## Content scope
 
 - Only established material: things standard in the field and used in practice (for statistics, the methods used in the Higgs discovery). No speculative or frontier methods unless asked.
-- Include only what the owner has studied and understands. Follow the notation of their course notes: Standard Model chapter 1 notes (gauge couplings `g_3, g_2, g_1`, metric `(-+++)`), Relativity and Cosmology notes (`G=c=1`, `K=\pm1,0`, `\chi`, `f(\chi)`, pressure `P`, `w=P/\rho`). Do not import another source's notation.
+- Include only what the owner has studied and understands; their course notes (Standard Model, Relativity and Cosmology) define the scope.
+- Notation: stay close to the standard literature, PDG reviews first, then standard textbooks. Where the course notes use idiosyncratic symbols, prefer the literature's and tell the owner. Use one symbol per quantity across all pages (e.g. `M_W`, `M_Z`, `m_H`), and say which sign and metric conventions a page uses.
 - If a course note looks wrong (e.g. mislabelled curvature sign), follow the correct physics and tell the owner.
 
 ## Images

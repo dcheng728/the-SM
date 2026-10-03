@@ -16,6 +16,8 @@ for f in glob.glob("source/data/*.yml"):
         seen.add(e["id"])
         if e["source"] not in src:
             bad.append(f"{f}: {e['id']}: unknown source {e['source']}")
+        if ("errp" in e) != ("errm" in e):
+            bad.append(f"{f}: {e['id']}: errp and errm go together")
         if not isinstance(e["value"], str):
             bad.append(f"{f}: {e['id']}: value must be a quoted string")
 print("\n".join(bad) or "ok")

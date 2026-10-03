@@ -66,8 +66,14 @@ $$p=\tfrac12\ \mathrm{erfc}\!\left(Z/\sqrt2\right)$$
 | 1 | 0.15866 |
 | 2 | 0.02275 |
 | 3 (evidence) | 0.0013499 |
-| 4 | $$3.1671\times10^{-5}$$ |
-| 5 (discovery) | $$2.8665\times10^{-7}$$ |
+| 3.4 (CMS 750 GeV 2016; global 1.6) | $$3.4\times10^{-4}$$ |
+| 4.6 (DØ top quark, 1995) | $$2.1\times10^{-6}$$ |
+| 5 | $$2.8665\times10^{-7}$$ |
+| 5.2 (Daya Bay $$\theta_{13}\neq0$$, 2012) | $$1.0\times10^{-7}$$ |
+| 5.3 (SNO flavor change, 2002) | $$5.8\times10^{-8}$$ |
+| 5.7 (IceCube astro $$\nu$$, 2014) | $$6.0\times10^{-9}$$ |
+| 5.9 (ATLAS Higgs 2012) | $$1.8\times10^{-9}$$ |
+| 7.0 (BICEP2 2014; was dust) | $$1.3\times10^{-12}$$ |
 
 ### Expected significance (Asimov)
 
@@ -90,7 +96,19 @@ $$p_{\rm global}\approx N_{\rm trials}p_{\rm local}$$
 - Read, J. Phys. G 28 (2002) 2693 ($$\mathrm{CL}_s$$)
 - Gross, Vitells, EPJC 70 (2010) 525, arXiv:1005.1891 (look-elsewhere)
 - Cowan, Cranmer, Gross, Vitells, EPJC 71 (2011) 1554, arXiv:1007.1727 (asymptotic formulae)
+- DØ, arXiv:hep-ex/9503003 (top quark, 4.6σ)
+- SNO, Phys. Rev. Lett. 89 (2002) 011301, arXiv:nucl-ex/0204008 (5.3σ)
+- Daya Bay, Phys. Rev. Lett. 108 (2012) 171803, arXiv:1203.1669 (5.2σ)
+- IceCube, Phys. Rev. Lett. 113 (2014) 101101, arXiv:1405.5303 (5.7σ)
 - ATLAS, Phys. Lett. B 716 (2012) 1, arXiv:1207.7214 (Higgs discovery)
 - CMS, Phys. Lett. B 716 (2012) 30, arXiv:1207.7235 (Higgs discovery)
+- CMS, arXiv:1606.04093 (750 GeV: local 3.4σ, global 1.6σ)
+- BICEP2, arXiv:1403.3985 (7.0σ); BICEP2/Keck and Planck, arXiv:1502.00612 (dust)
 
 </details>
+
+--- 
+
+*“If it disagrees with experiment it is wrong.”*
+
+-- Richard P. Feynman, *The Character of Physical Law* (1965).
