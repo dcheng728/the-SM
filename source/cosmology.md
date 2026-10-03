@@ -153,6 +153,10 @@ $$\rho>\rho_c\Leftrightarrow K=+1,\qquad \rho<\rho_c\Leftrightarrow K=-1$$
 
 Planck TT,TE,EE+lowE+lensing, 68% confidence (PDG 2025, Table 25.1).
 
+### $$H_0\ (\mathrm{km}\ \mathrm{s}^{-1}\ \mathrm{Mpc}^{-1})$$
+
+{% include table.html data=site.data.cosmology_h0 cols="name nosymbol" %}
+
 ## Timeline
 
 $$tT_{\rm MeV}^2=2.4N(T)^{-1/2}\ \text{s}$$
