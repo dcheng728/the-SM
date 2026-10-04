@@ -50,6 +50,8 @@ $$m_1-m_2=-2.5\log_{10}\frac{f_1}{f_2}$$
 
 $$M_1-M_2=-2.5\log_{10}\frac{L_1}{L_2}$$
 
+{% include table.html data=site.data.astro_snia cols="name" %}
+
 ### Distance modulus
 
 $$m-M=5\log_{10}\frac{d}{10\ \mathrm{pc}}=5\log_{10}d-5\quad(d\ \text{in pc})$$
@@ -64,5 +66,6 @@ $$z=\frac{\lambda_{\rm obs}-\lambda_{\rm emit}}{\lambda_{\rm emit}}$$
 <summary>References</summary>
 
 - PDG Review 2, Astrophysical Constants and Parameters (2025), Table 2.1: au, pc (1 au / 1 arcsec), ly, solar mass, nominal solar radius and luminosity
+- Riess et al. 2022 (SH0ES), ApJ 934, L7, Table 5: baseline $$M_B^0=-19.253$$ for Type Ia supernovae (B band, Cepheid-calibrated), rounded to $$-19.3$$
 
 </details>
