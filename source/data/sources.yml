@@ -22,3 +22,6 @@ shoes2022:
 cchp2025:
   cite: "W. L. Freedman et al. (CCHP), ApJ 985 (2025) 203, abstract: TRGB with 24 SN Ia calibrators, H0 = 70.39 +- 1.22 (stat) +- 1.33 (sys) +- 0.70 (sigma_SN); total error is these added in quadrature"
   url: https://arxiv.org/abs/2408.06153
+pdg2025astro:
+  cite: "PDG, Review 2 'Astrophysical Constants and Parameters' (D. E. Groom, D. Scott; revised August 2025), Table 2.1 (au, pc, ly, solar mass, nominal solar radius and luminosity)"
+  url: https://pdg.lbl.gov/2025/reviews/rpp2025-rev-astrophysical-constants.pdf

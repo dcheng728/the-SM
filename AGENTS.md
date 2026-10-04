@@ -28,7 +28,7 @@ Conventions for working on this repo. The site is a compact, equation- and numbe
 ## Content scope
 
 - Only established material: things standard in the field and used in practice (for statistics, the methods used in the Higgs discovery). No speculative or frontier methods unless asked.
-- Include only what the owner has studied and understands; their course notes (Standard Model, Relativity and Cosmology) define the scope.
+- Include only what the owner has studied and understands; their course notes (Standard Model, Relativity and Cosmology, and Astrophysics) define the scope.
 - Notation: stay close to the standard literature, PDG reviews first, then standard textbooks. Where the course notes use idiosyncratic symbols, prefer the literature's and tell the owner. Use one symbol per quantity across all pages (e.g. `M_W`, `M_Z`, `m_H`), and say which sign and metric conventions a page uses.
 - If a course note looks wrong (e.g. mislabelled curvature sign), follow the correct physics and tell the owner.
 
@@ -56,4 +56,4 @@ Conventions for working on this repo. The site is a compact, equation- and numbe
 
 ## Git
 
-- Do not commit or push unless asked. Stage the files for one logical commit at a time and suggest a message; keep `source/` and `build/` changes in separate commits.
+- Do not commit or push unless asked. Stage the files for one logical commit at a time and suggest a message; keep `source/` and `build/` changes in separate commits. The owner's shorthand "SGMM" means "stage and give me message": stage the next logical commit and suggest its message.

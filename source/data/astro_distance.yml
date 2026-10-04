@@ -1,0 +1,4 @@
+- {id: Rsun, symbol: "R_\\odot",       name: "solar radius",  value: "6.957",         unit: "\\times10^{8}\\ m",   source: pdg2025astro, note: "exact"}
+- {id: au,   symbol: "\\mathrm{au}",   name: "astronomical unit",       value: "1.496", unit: "\\times10^{11}\\ m",  source: pdg2025astro, note: "exact"}
+- {id: ly,   symbol: "\\mathrm{ly}",   name: "light year",              value: "9.461",       unit: "\\times10^{15}\\ m",  source: pdg2025astro}
+- {id: pc,   symbol: "\\mathrm{pc}",   name: "parsec",                  value: "3.086", unit: "\\times10^{16}\\ m",  source: pdg2025astro, note: "1 au / 1 arcsec, exact"}
