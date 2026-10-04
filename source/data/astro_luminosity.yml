@@ -1,0 +1,1 @@
+- {id: Lsun, symbol: "L_\\odot",       name: "solar luminosity", value: "3.828",      unit: "\\times10^{26}\\ W\\ (J/s)",  source: pdg2025astro, note: "exact"}

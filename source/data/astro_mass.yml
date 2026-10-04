@@ -1,0 +1,1 @@
+- {id: Msun, symbol: "M_\\odot",       name: "solar mass",              value: "1.988", unit: "\\times10^{30}\\ kg", source: pdg2025astro}
