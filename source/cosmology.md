@@ -9,11 +9,21 @@ nav_order: 7
 
 ## Conventions
 
-$$G=c=1,\qquad \text{metric }(-+++),\qquad w=\frac{P}{\rho}$$
+$$
+G=c=1,\qquad \text{metric }(-+++),\qquad w=\frac{P}{\rho}
+$$
 
-$$\hom\equiv\text{``homogeneous"},\qquad\iso\equiv\text{``isotropic"}$$
+$$
+\hom\equiv\text{``homogeneous"},\qquad
+\iso\equiv\text{``isotropic"}
+$$
 
-$$H\equiv\frac{\dot a}{a},\qquad 1+z=\frac{a_0}{a}$$
+$$
+H\equiv\frac{\dot a}{a},\qquad 
+1+z
+=\frac{a_0}{a}
+=\frac{\lambda_{\text{obs}}}{\lambda_{\text{orig}}}
+$$
 
 ## FLRW Geometry
 
@@ -121,84 +131,6 @@ $$a\propto t^{1/2}\ \text{(radiation)},\qquad a\propto t^{2/3}\ \text{(matter)}$
 $$w=-1:\qquad a(t)=a_0\exp\!\left(\sqrt{\tfrac{\Lambda}{3}}t\right)$$
 
 $$\rho_r\propto T^4\ \Rightarrow\ T\propto\frac1a\propto1+z$$
-
-### Open, curvature-dominated (Milne)
-
-$$a=t,\qquad ds^2=-dt^2+t^2\left(d\chi^2+\sinh^2\chi d\Omega^2\right)$$
-
-### Closed, recollapse after $$t_K$$
-
-$$\frac{8\pi}{3}\rho(t_K)=\frac{1}{a^2(t_K)},\qquad \ddot a<0$$
-
-$$\begin{aligned}
-a(\eta)&=\frac{a_{\max}}{2}(1-\cos\eta)\quad(w=0)\\
-t(\eta)&=\frac{a_{\max}}{2}(\eta-\sin\eta)
-\end{aligned}$$
-
-## Density parameters
-
-$$\rho_c=\frac{3H_0^2}{8\pi},\qquad \Omega_i=\frac{\rho_{i0}}{\rho_c}=\frac{8\pi\rho_{i0}}{3H_0^2}$$
-
-$$1=\Omega_r+\Omega_m+\Omega_K+\Omega_\Lambda,\qquad \Omega_K=-\frac{K}{a_0^2H_0^2}$$
-
-$$\begin{aligned}
-H^2=H_0^2\Big[&\Omega_ra^{-4}+\Omega_ma^{-3}\\
-&+\Omega_Ka^{-2}+\Omega_\Lambda\Big]\quad(a_0=1)
-\end{aligned}$$
-
-$$H_0=100h\ \mathrm{km}\ \mathrm{s}^{-1}\ \mathrm{Mpc}^{-1}$$
-
-$$\rho>\rho_c\Leftrightarrow K=+1,\qquad \rho<\rho_c\Leftrightarrow K=-1$$
-
-## ΛCDM (flat)
-
-### Fitted parameters
-
-{% include table.html data=site.data.cosmology_fit cols="name" %}
-
-### Derived
-
-{% include table.html data=site.data.cosmology_today %}
-
-Planck TT,TE,EE+lowE+lensing, 68% confidence (PDG 2025, Table 25.1).
-
-### $$H_0\ (\mathrm{km}\ \mathrm{s}^{-1}\ \mathrm{Mpc}^{-1})$$
-
-{% include table.html data=site.data.cosmology_h0 cols="name nosymbol" %}
-
-## Timeline
-
-$$tT_{\rm MeV}^2=2.4N(T)^{-1/2}\ \text{s}$$
-
-$$1+z_{\rm eq}=2.4\times10^4\Omega_mh^2$$
-
-$$\Omega_m(1+z)^3=\Omega_\Lambda\quad(\rho_\Lambda=\rho_m)$$
-
-$$\Omega_m(1+z)^3=2\Omega_\Lambda\quad(\rho+3P=0)$$
-
-| $$t$$ | event |
-|---|---|
-| $$\sim10^{-11}$$ s | electroweak scale |
-| $$\sim1$$ s | neutrino decoupling |
-| $$\sim3$$ s | $$e^\pm$$ annihilation |
-| $$\sim3$$ min | nucleosynthesis |
-| $$5\times10^4$$ yr | matter–radiation equality |
-| $$3.7\times10^5$$ yr | last scattering (CMB) |
-| $$\lesssim0.9$$ Gyr | reionization |
-| $$7.7$$ Gyr | acceleration begins |
-| $$10.3$$ Gyr | $$\rho_\Lambda=\rho_m$$ |
-| $$13.797$$ Gyr | today |
-
-<details markdown="1">
-<summary>References</summary>
-
-- PDG Review 22, Big-Bang Cosmology (2025): $$tT_{\rm MeV}^2$$ relation and $$N(T)$$ table (22.44), neutrino decoupling at $$T\sim1$$ MeV, equality (22.61), last scattering at $$z\simeq1100$$ (about 370,000 yr), reionization at $$z>6$$
-- PDG Review 24, Big-Bang Nucleosynthesis (2025): $$T\sim1$$ MeV at $$t\sim1$$ s, nuclei form at $$T\simeq0.1$$ MeV, the first three minutes
-- PDG Review 25, Table 25.1: $$\Omega_m$$, $$\Omega_\Lambda$$, $$h$$, $$t_0$$, $$T_\gamma$$
-- Computed here: $$t$$ for the electroweak scale and $$e^\pm$$ annihilation from the $$tT^2$$ relation; $$z_{\rm eq}$$, $$z\approx0.30$$ and $$z\approx0.63$$ from the table's $$\Omega_m$$, $$\Omega_\Lambda$$, $$h$$; $$t$$ for equality, reionization and the dark-energy epochs by integrating $$H(a)$$ above with $$\Omega_r$$ from $$\Omega_\gamma=2.47\times10^{-5}h^{-2}$$ and PDG (22.57), which reproduces $$t_0=13.79$$ Gyr and $$t(z=1100)=3.7\times10^5$$ yr
-- CMB map: ESA and the Planck Collaboration, <a href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</a>, via <a href="https://commons.wikimedia.org/wiki/File:Cosmic_Microwave_Background_(CMB).jpeg">Wikimedia Commons</a>; modified: resized, background made transparent
-
-</details>
 
 <figure>
 <img src="{{ '/source/images/cmb.webp' | relative_url }}" alt="All-sky map of the cosmic microwave background temperature from Planck: small blue and red blotches on a nearly uniform background">
