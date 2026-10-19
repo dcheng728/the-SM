@@ -9,16 +9,20 @@ nav_order: 8
 
 ## Scales
 
+### Angles
+
+$$1^\circ=60'=3600'',\qquad 1\ \mathrm{rad}=\frac{648000}{\pi}''\approx206265''$$
+
+$$\theta=\frac{s}{d}\quad(\theta\ \text{in rad, small angle})$$
+
 ### Distance
 
-|  | name | value |
-|---|---|---|
-| $$R_\odot$$ | solar radius | 6.957 $$\mathrm{\times10^{8}\ m}$$ |
-| $$\mathrm{au}$$ | astronomical unit | 1.496 $$\mathrm{\times10^{11}\ m}$$ |
-| $$\mathrm{ly}$$ | light year | 9.461 $$\mathrm{\times10^{15}\ m}$$ |
-| $$\mathrm{pc}$$ | parsec | 3.086 $$\mathrm{\times10^{16}\ m}$$ |
-
-Source: [PDG 2025, Review 2](https://pdg.lbl.gov/2025/reviews/rpp2025-rev-astrophysical-constants.pdf), Table 2.1. $$R_\odot$$, au and pc are exact.
+|  | name | value | alternative exprs |
+|---|---|---|---|
+| $$R_\odot$$ | solar radius | 6.957 $$\mathrm{\times10^{8}\ m}$$ |  |
+| $$\mathrm{au}$$ | astronomical unit | 1.496 $$\mathrm{\times10^{11}\ m}$$ | 8.3 light minutes |
+| $$\mathrm{ly}$$ | light year | 9.461 $$\mathrm{\times10^{15}\ m}$$ |  |
+| $$\mathrm{pc}$$ | parsec | 3.086 $$\mathrm{\times10^{16}\ m}$$ | $\frac{3600 \times 180 }{\pi} \text{au}$
 
 ### Mass
 
@@ -34,13 +38,8 @@ Source: [PDG 2025, Review 2](https://pdg.lbl.gov/2025/reviews/rpp2025-rev-astrop
 |---|---|---|
 | $$L_\odot$$ | solar luminosity | 3.828 $$\mathrm{\times10^{26}\ W\ (J/s)}$$ |
 
-Source: [PDG 2025, Review 2](https://pdg.lbl.gov/2025/reviews/rpp2025-rev-astrophysical-constants.pdf), Table 2.1. Exact.
 
-### Angles
 
-$$1^\circ=60'=3600'',\qquad 1\ \mathrm{rad}=\frac{648000}{\pi}''\approx206265''$$
-
-$$\theta=\frac{s}{d}\quad(\theta\ \text{in rad, small angle})$$
 
 ### Parallax
 
@@ -69,7 +68,6 @@ $$M_1-M_2=-2.5\log_{10}\frac{L_1}{L_2}$$
 |---|---|---|
 | $$M_{\rm peak}$$ | Type Ia supernova (B band) | −19.3 $$\mathrm{mag}$$ |
 
-Source: [Riess et al. (SH0ES), ApJ Lett. 934 (2022) L7](https://arxiv.org/abs/2112.04510), Table 5 baseline, rounded from $$-19.253$$.
 
 ### Distance modulus
 
@@ -79,12 +77,6 @@ $$d=10^{(m-M+5)/5}\ \mathrm{pc}$$
 
 ## Redshift
 
-$$z=\frac{\lambda_{\rm obs}-\lambda_{\rm emit}}{\lambda_{\rm emit}}$$
+$$1+ z=\frac{\lambda_{\rm obs}}{\lambda_{\rm emit}}$$
 
-<details markdown="1">
-<summary>References</summary>
 
-- PDG Review 2, Astrophysical Constants and Parameters (2025), Table 2.1: au, pc (1 au / 1 arcsec), ly, solar mass, nominal solar radius and luminosity
-- Riess et al. 2022 (SH0ES), ApJ 934, L7, Table 5: baseline $$M_B^0=-19.253$$ for Type Ia supernovae (B band, Cepheid-calibrated), rounded to $$-19.3$$
-
-</details>
