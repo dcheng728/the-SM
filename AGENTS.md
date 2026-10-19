@@ -4,8 +4,8 @@ Conventions for working on this repo. The site is a compact, equation- and numbe
 
 ## Layout
 
-- `source/` is physics only: `data/*.yml` (every number), pages (`*.md`, equations), `data/sources.yml` (citations).
-- `build/` is site machinery only: `layouts/`, `includes/`, `assets/`, `validate.py`, `pdg/`.
+- `source/` is physics only: pages (`*.md`) holding equations, numbers (as markdown tables) and their citations. Self-contained: no data files, no scripts.
+- `build/` is site machinery only: `layouts/`, `assets/`.
 - Root holds config only (`_config.yml`, `Gemfile`, `readme.md`, this file). Keep `source/` and `build/` separate.
 - A page joins the nav bar by setting `nav:` and `nav_order:` in its front matter and a `permalink`. The home page is the brand link (the site title), so it needs no nav fields.
 
@@ -41,18 +41,16 @@ Conventions for working on this repo. The site is a compact, equation- and numbe
 
 ## Numbers and sources
 
-- Every number lives in `source/data/*.yml` with a `source` key defined in `source/data/sources.yml`. Values are quoted strings (keeps significant figures).
-- Never write constants from memory. Read them from the cited source (PDG listings and reviews, CODATA) and say where.
-- PDG: `.the-sm/bin/python build/pdg/check.py` compares masses against PDG's published values. The pip package's numeric fields can lag the published text (e.g. W mass), so compare against the published display text.
-- Run `python3 build/validate.py` after any data change.
+- Numbers go in markdown tables in the page, with a `Source:` line under each table linking the PDG review / CODATA / paper. Keep significant figures as written in the source.
+- Never write constants from memory. Read them from the cited source and say where.
+- In table cells write `\lvert V\rvert`, not `|V|` (a pipe breaks the table).
 
 ## Build and verify
 
 - Build with the pinned Jekyll: `bundle exec jekyll build -d <scratch>` or `bundle exec jekyll serve`. The site is under `/the-SM/` (`baseurl`).
 - `_config.yml` `exclude` replaces Jekyll's defaults, so add new non-site files (docs, tooling) to it.
-- Edits under `build/` or `source/data/` are not picked up by a running `jekyll serve`; restart it.
+- Edits under `build/` are not picked up by a running `jekyll serve`; restart it.
 - Check pages in a real browser at several widths (no horizontal overflow, no clipped equations, no KaTeX errors, no headings stranded at a column break).
-- Python tooling lives in its own pinned venv (`.the-sm`, git-ignored) from `build/pdg/requirements.txt`.
 
 ## Git
 

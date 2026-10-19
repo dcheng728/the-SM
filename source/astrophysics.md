@@ -11,15 +11,30 @@ nav_order: 8
 
 ### Distance
 
-{% include table.html data=site.data.astro_distance cols="name" %}
+|  | name | value |
+|---|---|---|
+| $$R_\odot$$ | solar radius | 6.957 $$\mathrm{\times10^{8}\ m}$$ |
+| $$\mathrm{au}$$ | astronomical unit | 1.496 $$\mathrm{\times10^{11}\ m}$$ |
+| $$\mathrm{ly}$$ | light year | 9.461 $$\mathrm{\times10^{15}\ m}$$ |
+| $$\mathrm{pc}$$ | parsec | 3.086 $$\mathrm{\times10^{16}\ m}$$ |
+
+Source: [PDG 2025, Review 2](https://pdg.lbl.gov/2025/reviews/rpp2025-rev-astrophysical-constants.pdf), Table 2.1. $$R_\odot$$, au and pc are exact.
 
 ### Mass
 
-{% include table.html data=site.data.astro_mass cols="name" %}
+|  | name | value |
+|---|---|---|
+| $$M_\odot$$ | solar mass | 1.988 $$\mathrm{\times10^{30}\ kg}$$ |
+
+Source: [PDG 2025, Review 2](https://pdg.lbl.gov/2025/reviews/rpp2025-rev-astrophysical-constants.pdf), Table 2.1.
 
 ### Luminosity
 
-{% include table.html data=site.data.astro_luminosity cols="name" %}
+|  | name | value |
+|---|---|---|
+| $$L_\odot$$ | solar luminosity | 3.828 $$\mathrm{\times10^{26}\ W\ (J/s)}$$ |
+
+Source: [PDG 2025, Review 2](https://pdg.lbl.gov/2025/reviews/rpp2025-rev-astrophysical-constants.pdf), Table 2.1. Exact.
 
 ### Angles
 
@@ -50,7 +65,11 @@ $$m_1-m_2=-2.5\log_{10}\frac{f_1}{f_2}$$
 
 $$M_1-M_2=-2.5\log_{10}\frac{L_1}{L_2}$$
 
-{% include table.html data=site.data.astro_snia cols="name" %}
+|  | name | value |
+|---|---|---|
+| $$M_{\rm peak}$$ | Type Ia supernova (B band) | −19.3 $$\mathrm{mag}$$ |
+
+Source: [Riess et al. (SH0ES), ApJ Lett. 934 (2022) L7](https://arxiv.org/abs/2112.04510), Table 5 baseline, rounded from $$-19.253$$.
 
 ### Distance modulus
 

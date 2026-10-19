@@ -95,4 +95,10 @@ $$\begin{aligned}
 
 $$c=\hbar=1$$
 
-{% include table.html data=site.data.units %}
+|  | value |
+|---|---|
+| $$\hbar c$$ | 197.3269804 $$\mathrm{MeV\ fm}$$ |
+| $$(\hbar c)^2$$ | 0.3893793721 $$\mathrm{GeV^2\ mb}$$ |
+| $$\hbar$$ | 6.582119569 $$\mathrm{\times10^{-25}\ GeV\ s}$$ |
+
+Source: [CODATA 2022](https://physics.nist.gov/cuu/Constants/).
