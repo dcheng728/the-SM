@@ -4,19 +4,14 @@ To provide compact and clean notes on the standard model, both theory, and exper
 
 ## Layout
 
-- `source/`: the physics. `data/*.yml` (every number, with a source key), `index.md` (equations).
-- `build/`: the site machinery (layout, table include, CSS, validator, PDG check).
+- `source/`: the physics. One markdown file per page; equations, numbers and their citations all live in the page.
+- `build/`: the site machinery (layout, CSS).
 
-## Build & check
+## Build
 
 ```sh
-bundle install                                   # Jekyll as GitHub Pages runs it (pinned in Gemfile.lock)
-bundle exec jekyll serve                         # site at http://127.0.0.1:4000/the-SM/
-python3 build/validate.py                        # needs PyYAML; also run by CI
-
-# compare masses against the local PDG database (separate Python env, pinned)
-python3 -m venv .the-sm && .the-sm/bin/pip install -r build/pdg/requirements.txt
-.the-sm/bin/python build/pdg/check.py
+bundle install
+bundle exec jekyll serve    # http://127.0.0.1:4000/the-SM/
 ```
 
-Edits to `build/` or `source/data/` are not picked up by a running `jekyll serve`; restart it.
+Edits to `build/` are not picked up by a running `jekyll serve`; restart it.
