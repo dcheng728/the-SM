@@ -80,3 +80,9 @@ $$d=10^{(m-M+5)/5}\ \mathrm{pc}$$
 $$1+ z=\frac{\lambda_{\rm obs}}{\lambda_{\rm emit}}$$
 
 
+## Lensing
+
+GR weak-field deflection (small angle)
+$$
+\theta = \frac{4 GM}{c^2 b}
+$$
