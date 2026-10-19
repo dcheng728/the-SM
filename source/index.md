@@ -146,24 +146,66 @@ $$9-5=4:\quad\theta_{12},\ \theta_{23},\ \theta_{13},\ \delta$$
 
 ### Quarks (mass)
 
-{% include table.html data=site.data.quarks cols="Q" %}
+|  | $$Q$$ | $$T_3$$ (L) | value |
+|---|---|---|---|
+| $$u$$ | $$+2/3$$ | $$+1/2$$ | 2.16 ± 0.07 $$\mathrm{MeV}$$ |
+| $$d$$ | $$-1/3$$ | $$-1/2$$ | 4.70 ± 0.07 $$\mathrm{MeV}$$ |
+| $$s$$ | $$-1/3$$ | $$-1/2$$ | 93.5 ± 0.8 $$\mathrm{MeV}$$ |
+| $$c$$ | $$+2/3$$ | $$+1/2$$ | 1.2730 ± 0.0046 $$\mathrm{GeV}$$ |
+| $$b$$ | $$-1/3$$ | $$-1/2$$ | 4.183 ± 0.007 $$\mathrm{GeV}$$ |
+| $$t$$ | $$+2/3$$ | $$+1/2$$ | 172.56 ± 0.31 $$\mathrm{GeV}$$ |
+
+Source: [PDG 2025](https://pdg.lbl.gov). $$\overline{\mathrm{MS}}$$ masses: $$m_{u,d,s}$$ at 2 GeV, $$m_c(m_c)$$, $$m_b(m_b)$$; $$m_t$$ from direct measurement.
 
 ### Leptons (mass)
 
-{% include table.html data=site.data.leptons cols="Q" %}
+|  | $$Q$$ | $$T_3$$ (L) | value |
+|---|---|---|---|
+| $$e$$ | $$-1$$ | $$-1/2$$ | 0.51099895 $$\mathrm{MeV}$$ |
+| $$\mu$$ | $$-1$$ | $$-1/2$$ | 105.6583755 ± 0.0000023 $$\mathrm{MeV}$$ |
+| $$\tau$$ | $$-1$$ | $$-1/2$$ | 1776.93 ± 0.09 $$\mathrm{MeV}$$ |
+| $$m_\beta$$ | $$0$$ | $$+1/2$$ | < 0.8 $$\mathrm{eV}$$ |
+
+Source: [PDG 2025](https://pdg.lbl.gov); $$m_\beta$$ from [PDG 2024](https://pdg.lbl.gov), 90% CL upper limit on the effective mass $$\sqrt{\sum_i |U_{ei}|^2 m_i^2}$$ (flavour states have no definite mass).
 
 ### Bosons (mass)
 
-{% include table.html data=site.data.bosons cols="spin" %}
+|  | spin | value |
+|---|---|---|
+| $$\gamma$$ | 1 | 0 |
+| $$g$$ | 1 | 0 |
+| $$W^\pm$$ | 1 | 80.3692 ± 0.0133 $$\mathrm{GeV}$$ |
+| $$Z$$ | 1 | 91.1880 ± 0.0020 $$\mathrm{GeV}$$ |
+| $$H$$ | 0 | 125.20 ± 0.11 $$\mathrm{GeV}$$ |
+
+Source: [PDG 2025](https://pdg.lbl.gov).
 
 ### Constants
 
-{% include table.html data=site.data.constants %}
+|  | value |
+|---|---|
+| $$\alpha^{-1}(0)$$ | 137.035999177 ± 0.000000021 |
+| $$\alpha_s(M_Z)$$ | 0.1180 ± 0.0009 |
+| $$\sin^2\theta_W$$ | 0.23129 ± 0.00004 |
+| $$G_F$$ | 1.1663788 ± 0.0000006 $$\mathrm{\times10^{-5}\ GeV^{-2}}$$ |
+| $$v$$ | 246.22 $$\mathrm{GeV}$$ |
+
+Sources: $$\alpha^{-1}$$ from [CODATA 2022](https://physics.nist.gov/cuu/Constants/); the rest from [PDG 2024](https://pdg.lbl.gov). $$\sin^2\theta_W$$ is $$\overline{\mathrm{MS}}$$ at $$M_Z$$; $$v$$ is derived from $$G_F$$.
 
 ### CKM magnitudes
 
-{% include table.html data=site.data.ckm %}
+|  | value |
+|---|---|
+| $$\lvert V_{ud}\rvert$$ | 0.97435 ± 0.00016 |
+| $$\lvert V_{us}\rvert$$ | 0.22501 ± 0.00068 |
+| $$\lvert V_{ub}\rvert$$ | 0.003732$$^{+0.000090}_{-0.000085}$$ |
+| $$\lvert V_{cd}\rvert$$ | 0.22487 ± 0.00068 |
+| $$\lvert V_{cs}\rvert$$ | 0.97349 ± 0.00016 |
+| $$\lvert V_{cb}\rvert$$ | 0.04183$$^{+0.00079}_{-0.00069}$$ |
+| $$\lvert V_{td}\rvert$$ | 0.00858$$^{+0.00019}_{-0.00017}$$ |
+| $$\lvert V_{ts}\rvert$$ | 0.04111$$^{+0.00077}_{-0.00068}$$ |
+| $$\lvert V_{tb}\rvert$$ | 0.999118$$^{+0.000029}_{-0.000034}$$ |
 
-CKMfitter global fit with three-generation unitarity (PDG 2025, Review 12).
+CKMfitter global fit with three-generation unitarity ([PDG 2025, Review 12](https://pdg.lbl.gov/2025/reviews/rpp2025-rev-ckm-matrix.pdf), eq. 12.27).
 
 $$\theta_W$$ runs with the momentum scale; $$\sin^2\theta_W$$ is quoted at $$M_Z$$.
