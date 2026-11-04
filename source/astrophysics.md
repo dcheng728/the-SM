@@ -81,6 +81,10 @@ $$d=10^{(m-M+5)/5}\ \mathrm{pc}$$
 
 $$z=\frac{\lambda_{\rm obs}-\lambda_{\rm emit}}{\lambda_{\rm emit}}$$
 
+## Lensing
+
+
+
 <details markdown="1">
 <summary>References</summary>
 
