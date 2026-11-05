@@ -39,6 +39,7 @@ K = \text{+1 (closed)},\;
 \text{-1 (open)}.
 $$
 
+<<<<<<< HEAD
 ### Ricci tensor
 
 $$
@@ -55,6 +56,8 @@ R_{ij} =
     \dot{H} + 3 H^2 + \frac{2k}{a^2}
 \right)g_{ij}.
 $$
+=======
+>>>>>>> origin/main
 
 ### Einstein Equations (Friedmann)
 
@@ -74,6 +77,19 @@ $$
 $$
 
 
+<<<<<<< HEAD
+=======
+## Dynamics
+
+### Friedmann equations
+
+$$\left(\frac{\dot a}{a}\right)^2=\frac{8\pi}{3}\rho-\frac{K}{a^2}$$
+
+$$\frac{\ddot a}{a}=-\frac{4\pi}{3}(\rho+3P)$$
+
+$$\dot\rho+3\frac{\dot a}{a}(\rho+P)=0,\qquad \rho=\sum_i\rho_i$$
+
+>>>>>>> origin/main
 <figure>
 <img src="{{ '/source/images/cmb.webp' | relative_url }}" alt="All-sky map of the cosmic microwave background temperature from Planck: small blue and red blotches on a nearly uniform background">
 <figcaption>CMB temperature map (Planck)</figcaption>
