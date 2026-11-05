@@ -39,10 +39,24 @@ K = \text{+1 (closed)},\;
 \text{-1 (open)}.
 $$
 
+### Ricci tensor
+
+$$
+R_{00} = -3 \frac{\ddot{a}}{a} = -3 (\dot{H} - H^2),\quad H \equiv \frac{\dot{a}}{a},
+$$
+
+$$
+R_{ij} = 
+\left(
+   \frac{\ddot{a}}{a} + 2 \left(\frac{\dot{a}}{a}\right)^2+2\frac{K}{a^2}
+\right)g_{ij}.
+$$
 
 ## Einstein equations
 
-$$G_{\mu\nu}=8\pi T_{\mu\nu}$$
+$$
+G_{\mu\nu}=8\pi T_{\mu\nu}
+$$
 
 $$\begin{aligned}
 G_{00}&=3\left(\frac{\dot a}{a}\right)^2+\frac{3K}{a^2}=8\pi T_{00}\\
