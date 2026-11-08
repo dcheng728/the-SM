@@ -57,9 +57,9 @@ $$
 
 ### Friedmann equations
 
-$$\left(\frac{\dot a}{a}\right)^2=\frac{8\pi}{3}\rho-\frac{K}{a^2}$$
+$$\left(\frac{\dot a}{a}\right)^2=\frac{8\pi G}{3}\rho-\frac{K}{a^2}$$
 
-$$\frac{\ddot a}{a}=-\frac{4\pi}{3}(\rho+3P)$$
+$$\frac{\ddot a}{a}=-\frac{4\pi G}{3}(\rho+3P)$$
 
 $$\dot\rho+3\frac{\dot a}{a}(\rho+P)=0,\qquad \rho=\sum_i\rho_i$$
 
