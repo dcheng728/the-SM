@@ -52,18 +52,6 @@ R_{ij} =
 \right)g_{ij}.
 $$
 
-## Einstein equations
-
-$$
-G_{\mu\nu}=8\pi T_{\mu\nu}
-$$
-
-$$\begin{aligned}
-G_{00}&=3\left(\frac{\dot a}{a}\right)^2+\frac{3K}{a^2}=8\pi T_{00}\\
-g^{ij}G_{ij}&=-6\frac{\ddot a}{a}-3\left(\frac{\dot a}{a}\right)^2-\frac{3K}{a^2}\\
-&=8\pi g^{ij}T_{ij}
-\end{aligned}$$
-
 
 ## Dynamics
 
@@ -74,6 +62,19 @@ $$\left(\frac{\dot a}{a}\right)^2=\frac{8\pi}{3}\rho-\frac{K}{a^2}$$
 $$\frac{\ddot a}{a}=-\frac{4\pi}{3}(\rho+3P)$$
 
 $$\dot\rho+3\frac{\dot a}{a}(\rho+P)=0,\qquad \rho=\sum_i\rho_i$$
+
+### Dilution Laws
+
+$$
+w_i \equiv p_i/\rho_i \Rightarrow
+\rho_i(a) = \rho_{i,0}a^{-3(1+w_i)}
+$$
+
+| Component | $w$ | Density | Why
+|---|---|---|---|
+| baryon | 0 | $a^{-3}$ | Energy stays constant while space expands |
+| radiation | $1/3$ | $a^{-4}$ | Number dilutes as $a^{-3}$ but also redshift $a^{-1}$ for energy |
+| cosmological constant | $-1$ | constant | ? |
 
 <figure>
 <img src="{{ '/source/images/cmb.webp' | relative_url }}" alt="All-sky map of the cosmic microwave background temperature from Planck: small blue and red blotches on a nearly uniform background">
