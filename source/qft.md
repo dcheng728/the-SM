@@ -120,7 +120,7 @@ $$
 Fermionic Fields
 
 $$
-\overline{\psi}(x)
+\psi(x)
 =
 \sum_r \int \frac{d^3\vec{k}}{(2\pi)^3}
 \frac{1}{\sqrt{2\omega_{\vec{k}}}}

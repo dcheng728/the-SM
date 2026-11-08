@@ -22,7 +22,7 @@ $$\theta=\frac{s}{d}\quad(\theta\ \text{in rad, small angle})$$
 | $$R_\odot$$ | solar radius | 6.957 $$\mathrm{\times10^{8}\ m}$$ |  |
 | $$\mathrm{au}$$ | astronomical unit | 1.496 $$\mathrm{\times10^{11}\ m}$$ | 8.3 light minutes |
 | $$\mathrm{ly}$$ | light year | 9.461 $$\mathrm{\times10^{15}\ m}$$ |  |
-| $$\mathrm{pc}$$ | parsec | 3.086 $$\mathrm{\times10^{16}\ m}$$ | $\frac{3600 \times 180 }{\pi} \text{au}$
+| $$\mathrm{pc}$$ | parsec | 3.086 $$\mathrm{\times10^{16}\ m}$$ | $$\frac{3600 \times 180}{\pi}\ \mathrm{au}$$
 
 ### Mass
 

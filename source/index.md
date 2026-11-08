@@ -44,7 +44,7 @@ $$
 
 ### SU(2) (Pauli Matrices)
 $$
-\vec{\sigma} = ([0,1;1,0],[0,-i,i,0],[1,0,0,-1]),
+\vec{\sigma} = ([0,1;1,0],[0,-i;i,0],[1,0;0,-1]),
 $$
 
 $$
@@ -79,9 +79,9 @@ B_{\mu\nu}&=\partial_\mu B_\nu-\partial_\nu B_\mu
 
 $$\begin{aligned}
 \mathcal L_{\rm gauge}&=-\tfrac14 G^a_{\mu\nu}G^{a\mu\nu}-\tfrac14 W^i_{\mu\nu}W^{i\mu\nu}-\tfrac14 B_{\mu\nu}B^{\mu\nu}\\[4pt]
-\mathcal L_{\rm spinor}&=-i\left(\bar L\gamma^\mu D_\mu L+\bar e_R\gamma^\mu D_\mu e_R+\bar Q\gamma^\mu D_\mu Q\right.\\
+\mathcal L_{\rm spinor}&=i\left(\bar L\gamma^\mu D_\mu L+\bar e_R\gamma^\mu D_\mu e_R+\bar Q\gamma^\mu D_\mu Q\right.\\
 &\qquad\left.+\bar u_R\gamma^\mu D_\mu u_R+\bar d_R\gamma^\mu D_\mu d_R\right)\\[4pt]
-\mathcal L_{\rm Higgs}&=-D_\mu\phi^\dagger D^\mu\phi-\lambda\left(\phi^\dagger\phi-\tfrac{\mu^2}{2\lambda}\right)^2\\[4pt]
+\mathcal L_{\rm Higgs}&=D_\mu\phi^\dagger D^\mu\phi-\lambda\left(\phi^\dagger\phi-\tfrac{\mu^2}{2\lambda}\right)^2\\[4pt]
 \mathcal L_{\rm Yukawa}&=-\left(f_{mn}\bar L_m e_{Rn}\phi+h_{mn}\bar Q_m d_{Rn}\phi\right.\\
 &\qquad\left.+k_{mn}\bar Q_m u_{Rn}\tilde\phi\right)+\text{h.c.},\quad\tilde\phi=\begin{pmatrix}\phi^{0*}\\-\phi^{+*}\end{pmatrix}\\[4pt]
 \mathcal L_\Theta&=-\sum_{k=1}^3\frac{g_k^2\Theta_k}{32\pi^2}F^{(k)}_{\mu\nu}\tilde F^{(k)\mu\nu},\quad \tilde F_{\mu\nu}=\tfrac12\epsilon_{\mu\nu\alpha\beta}F^{\alpha\beta}
