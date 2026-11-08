@@ -8,6 +8,7 @@ permalink: /
 Conventions: 
 - metric diag$(+{-}{-}{-})$
 - $g_3, g_2, g_1$ are the $SU(3), SU(2), U(1)_Y$ couplings
+- Symmetries: $M(\theta)\Phi = e^{-i\theta_i X_i}\Phi$, $[X_i,X_j]=if_{ijk} X_k$.
 
 ## Fields
 
@@ -21,7 +22,7 @@ Representations written $(\mathbf{n}_3,\mathbf{n}_2)_Y$.
 
 | field | name | rep |
 |---|---|---|
-| $G^{(i)}_\mu$ ($i=1..8$) | gluon | $(\mathbf 8,\mathbf 1)_0$ |
+| $G^{(a)}_\mu$ ($a=1..8$) | gluon | $(\mathbf 8,\mathbf 1)_0$ |
 | $W^{(i)}_\mu$ ($i=1..3$) | weak boson | $(\mathbf 1,\mathbf 3)_0$ |
 | $B_\mu$ | hypercharge boson | $(\mathbf 1,\mathbf 1)_0$ |
 | $L_m=(\nu_L,e_L)_m$ | lepton doublet | $(\mathbf 1,\mathbf 2)_{-1/2}$ |
@@ -31,13 +32,46 @@ Representations written $(\mathbf{n}_3,\mathbf{n}_2)_Y$.
 | $d_{Rm}$ | down quark | $(\mathbf 3,\mathbf 1)_{-1/3}$ |
 | $\phi=(\phi^+,\phi^0)$ | Higgs | $(\mathbf 1,\mathbf 2)_{1/2}$ |
 
+## Symmetries
+Baker-Campbell-Hausdorff
+$$
+e^X e^Y = e^{X+Y+\tfrac12[X,Y]} + ...
+$$
+
+$$
+f_{ijk} + f_{jki} + f_{kij} = 0.
+$$
+
+### SU(2) (Pauli Matrices)
+$$
+\vec{\sigma} = ([0,1;1,0],[0,-i,i,0],[1,0,0,-1]),
+$$
+
+$$
+\sigma_i^\dagger = \sigma_i,\quad
+[\sigma_i,\sigma_j] = 2\epsilon_{ijk} \sigma_k.
+$$
+
+$$
+X_{i,\text{SU(2)}} = \frac{\sigma_i}{2}
+$$
+
+### SU(3) (Gell-Mann matrices)
+
+$$
+X_{i,\text{SU(3)}} = \frac{\lambda_i}{2}
+$$
+
+
 ## Lagrangian
 
 $$\mathcal L_{SM}=\mathcal L_{\rm gauge}+\mathcal L_{\rm spinor}+\mathcal L_{\rm Higgs}+\mathcal L_{\rm Yukawa}+\mathcal L_\Theta$$
 
 $$\begin{aligned}
-G^a_{\mu\nu}&=\partial_\mu G^a_\nu-\partial_\nu G^a_\mu+g_3 f^{abc}G^b_\mu G^c_\nu\\
-W^i_{\mu\nu}&=\partial_\mu W^i_\nu-\partial_\nu W^i_\mu+g_2\epsilon^{ijk}W^j_\mu W^k_\nu\\
+G^{(a)}_{\mu\nu}
+&=\partial_\mu G^{(a)}_\nu-\partial_\nu G^{(a)}_\mu+g_3 f^{abc}G^{(b)}_\mu G^{(c)}_\nu\\
+W^{(i)}_{\mu\nu}
+&=\partial_\mu W^{(i)}_\nu-\partial_\nu W^{(i)}_\mu+g_2\epsilon^{ijk}W^{(j)}_\mu W^{(k)}_\nu\\
 B_{\mu\nu}&=\partial_\mu B_\nu-\partial_\nu B_\mu
 \end{aligned}$$
 
