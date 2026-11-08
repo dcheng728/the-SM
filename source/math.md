@@ -9,6 +9,17 @@ nav_order: 9
 
 ## Conventions
 
+## Expansions
+
+$$
+\begin{aligned}
+\frac{1}{1-x}
+&=1+x+x^2 + ... \\
+\ln (1+x)
+&=x-\frac{1}{2}x^2 + ...
+\end{aligned}
+$$
+
 ## Derivatives
 
 $$
