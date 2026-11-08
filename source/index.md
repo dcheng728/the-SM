@@ -6,7 +6,7 @@ permalink: /
 # The Standard Model
 
 Conventions: 
-- metric diag$(+---)$
+- metric diag$(+{-}{-}{-})$
 - $g_3, g_2, g_1$ are the $SU(3), SU(2), U(1)_Y$ couplings
 
 ## Fields
