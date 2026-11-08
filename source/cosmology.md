@@ -66,15 +66,15 @@ $$\dot\rho+3\frac{\dot a}{a}(\rho+P)=0,\qquad \rho=\sum_i\rho_i$$
 ### Dilution Laws
 
 $$
-w_i \equiv p_i/\rho_i \Rightarrow
+w_i \equiv P_i/\rho_i \Rightarrow
 \rho_i(a) = \rho_{i,0}a^{-3(1+w_i)}
 $$
 
 | Component | $w$ | Density | Why
 |---|---|---|---|
-| baryon | 0 | $a^{-3}$ | Energy stays constant while space expands |
+| baryon | 0 | $a^{-3}$ | Particle number is conserved while volume expands |
 | radiation | $1/3$ | $a^{-4}$ | Number dilutes as $a^{-3}$ but also redshift $a^{-1}$ for energy |
-| cosmological constant | $-1$ | constant | ? |
+| cosmological constant | $-1$ | constant | Vacuum energy density is constant |
 
 <figure>
 <img src="{{ '/source/images/cmb.webp' | relative_url }}" alt="All-sky map of the cosmic microwave background temperature from Planck: small blue and red blotches on a nearly uniform background">
