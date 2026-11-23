@@ -7,7 +7,16 @@ nav_order: 8
 
 # Astrophysics: scales and magnitudes
 
-## Scales
+## Constants
+
+Newton's constant
+$$
+G = 6.67 \times 10^{-11}\text{m}^3 \text{kg}^{-1} \text{s}^{-2}
+$$
+Seconds in a year
+$$
+60\times 60\times 24 \times 365.25 = 3.16\times 10^8
+$$
 
 ### Angles
 
