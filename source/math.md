@@ -16,7 +16,9 @@ $$
 \frac{1}{1-x}
 &=1+x+x^2 + ... \\
 \ln (1+x)
-&=x-\frac{1}{2}x^2 + ...
+&=x-\frac{1}{2}x^2 + ...\\
+\sqrt{1+x}
+&= 1+\frac12x-\frac18x+...
 \end{aligned}
 $$
 
