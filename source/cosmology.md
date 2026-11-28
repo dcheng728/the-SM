@@ -42,7 +42,7 @@ $$
 ### Ricci tensor
 
 $$
-R_{00} = -3 \frac{\ddot{a}}{a} = -3 (\dot{H} - H^2),\quad H \equiv \frac{\dot{a}}{a},
+R_{00} = -3 \frac{\ddot{a}}{a} = -3 (\dot{H} + H^2),\quad H \equiv \frac{\dot{a}}{a},
 $$
 
 $$
